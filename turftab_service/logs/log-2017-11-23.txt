@@ -1,0 +1,17 @@
+ERROR - 2017-11-23 10:48:09 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ D:\xampp\htdocs\chat_turftab\turftab_system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2017-11-23 10:48:09 --> Unable to connect to the database
+ERROR - 2017-11-23 16:04:07 --> Severity: Notice --> Undefined index: user_name D:\xampp\htdocs\turf_tab\turftab_service\controllers\User.php 39
+ERROR - 2017-11-23 16:04:07 --> Severity: Notice --> Undefined index: user_name D:\xampp\htdocs\turf_tab\turftab_service\controllers\User.php 75
+ERROR - 2017-11-23 16:04:07 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, `user_email`, `user_fullname`, `user_otp`, `user_otp_sent_date`, `user_verifi' at line 1 - Invalid query: INSERT INTO `ct_users` (`user_name`, `user_password`, `user_gender`, `user_dob`, `user_profile_image`, `user_description`, `user_country_code`, 0, `user_email`, `user_fullname`, `user_otp`, `user_otp_sent_date`, `user_verification`, `user_status`, `user_register_type`, `user_profile_updated_date`) VALUES ('siva404', 'SDNsQTJ0KzdyQzUwemdBV0RjRmJ4dz09', 'male', '1995-07-05', '', 'Currently working as PHP developer', '91', 'siva404', 'sivaramakannan@mailinator.com', NULL, 873864, '2017-11-23 16:04:07', 2, 2, 1, '2017-11-23 16:04:07')
+ERROR - 2017-11-23 18:33:35 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 31
+ERROR - 2017-11-23 18:33:36 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 31
+ERROR - 2017-11-23 18:33:36 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 31
+ERROR - 2017-11-23 18:33:36 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist ' at line 7 - Invalid query: SELECT `n`.`notifications_id`, `n`.`notifications_from_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, IFNULL(n.notifications_event_id, "") as notifications_event_id, IFNULL(e.event_name, "") as event_name, (CASE WHEN n.notifications_event_id != "" THEN e.event_image ELSE IFNULL(u.user_profile_image, "") END) as notification_image, CONCAT(u.user_fullname, " ", n.notifications_msg) as notification_msg, `n`.`notifications_type`, `n`.`notifications_status`, `n`.`notifications_created_date`, `s`.`profile_image_show`
+FROM `ct_notifications` `n`
+LEFT JOIN `ct_users` `u` ON `n`.`notifications_from_id`=`u`.`users_id`
+LEFT JOIN `ct_events` `e` ON `n`.`notifications_event_id`=`e`.`events_id`
+LEFT JOIN `ct_user_settings` `s` ON `u`.`users_id`=`s`.`users_id`
+WHERE (`n`.`notifications_to_id` = "4" AND `n`.`notifications_status` != 3)
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!= THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id =  OR blocklist_to_id = )
+ORDER BY `notifications_id` desc

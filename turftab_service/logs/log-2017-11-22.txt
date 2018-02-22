@@ -1,0 +1,44 @@
+ERROR - 2017-11-22 11:27:34 --> Query error: Unknown column 'de.users_id' in 'where clause' - Invalid query: SELECT `gc`.`group_conversation_id`, `gc`.`conversation_from_id` as `user_id`, `gc`.`content`, `gc`.`content_type`, `gc`.`group_conversation_created_date`, `u`.`user_fullname`, `u`.`user_name`
+FROM `ct_group_conversation` `gc`
+LEFT JOIN `ct_users` `u` ON `gc`.`conversation_from_id`=`u`.`users_id`
+WHERE (`gc`.`group_conversation_status` = 1 AND `gc`.`conversation_group_id` = "8" AND (`gc`.`content_type` = "text" OR `gc`.`content_type` = "video") AND `gc`.`group_conversation_id` NOT IN (select del.group_conversation_id from ct_deleted_history as del where de.users_id="5"))
+ORDER BY `gc`.`group_conversation_created_date` desc
+ERROR - 2017-11-22 11:36:12 --> Severity: Notice --> Undefined index: media D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 305
+ERROR - 2017-11-22 13:14:30 --> Query error: Unknown column 'c.conversation_id' in 'order clause' - Invalid query: SELECT `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`
+FROM `ct_group_members` `gm`
+INNER JOIN `ct_chat_group` `g` ON `gm`.`chat_group_id`=`g`.`chat_group_id` AND `g`.`chat_group_status`=1
+WHERE (`gm`.`group_member_id` = "4" AND `gm`.`group_members_status` = 1)
+ORDER BY `c`.`conversation_id` desc
+ERROR - 2017-11-22 13:16:36 --> Severity: Notice --> Undefined variable: response D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 333
+ERROR - 2017-11-22 16:48:11 --> Severity: Notice --> Undefined index: friend_id D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 206
+ERROR - 2017-11-22 16:48:11 --> Severity: Notice --> Undefined index: friend_id D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 206
+ERROR - 2017-11-22 16:48:11 --> Severity: Notice --> Undefined index: friend_id D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 214
+ERROR - 2017-11-22 18:43:16 --> Severity: Notice --> Undefined index: chat_group_id D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 268
+ERROR - 2017-11-22 18:43:16 --> Query error: Unknown column 'conversation_id' in 'order clause' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`
+FROM `ct_group_members` `gm`
+INNER JOIN `ct_chat_group` `g` ON `gm`.`chat_group_id`=`g`.`chat_group_id` AND `g`.`chat_group_status`=1
+WHERE (`gm`.`group_member_id` = "" AND `gm`.`group_members_status` = 1)
+ORDER BY `conversation_id` desc
+ERROR - 2017-11-22 18:43:16 --> Severity: Notice --> Undefined index: chat_group_id D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 268
+ERROR - 2017-11-22 18:43:16 --> Query error: Unknown column 'conversation_id' in 'order clause' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`
+FROM `ct_group_members` `gm`
+INNER JOIN `ct_chat_group` `g` ON `gm`.`chat_group_id`=`g`.`chat_group_id` AND `g`.`chat_group_status`=1
+WHERE (`gm`.`group_member_id` = "" AND `gm`.`group_members_status` = 1)
+ORDER BY `conversation_id` desc
+ERROR - 2017-11-22 18:43:40 --> Query error: Unknown column 'conversation_id' in 'order clause' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`
+FROM `ct_group_members` `gm`
+INNER JOIN `ct_chat_group` `g` ON `gm`.`chat_group_id`=`g`.`chat_group_id` AND `g`.`chat_group_status`=1
+WHERE (`gm`.`group_member_id` = "4" AND `gm`.`group_members_status` = 1)
+ORDER BY `conversation_id` desc
+ERROR - 2017-11-22 18:54:31 --> Severity: Parsing Error --> syntax error, unexpected '' THEN gcs.conversation_id ELS' (T_CONSTANT_ENCAPSED_STRING) D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 278
+ERROR - 2017-11-22 18:54:47 --> Query error: Unknown column 'g.group_id' in 'where clause' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`, (select count(*) from ct_group_conversation as gc where gc.group_conversation_id > (
+
+
+
+            select (CASE WHEN gcs.conversation_id!="" THEN gcs.conversation_id ELSE count(*) END) as last_message_id from ct_group_conversation_seen as gcs where gcs.users_id="4" AND gcs.chat_group_id=g.group_id) AND gc.conversation_group_id=g.chat_group_id) as unseen_count
+FROM `ct_group_members` `gm`
+INNER JOIN `ct_chat_group` `g` ON `gm`.`chat_group_id`=`g`.`chat_group_id` AND `g`.`chat_group_status`=1
+WHERE (`gm`.`group_member_id` = "4" AND `gm`.`group_members_status` = 1)
+ERROR - 2017-11-22 19:41:45 --> Severity: Notice --> Undefined index: chat_group_id D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 294
+ERROR - 2017-11-22 19:41:45 --> Severity: Notice --> Undefined index: chat_group_id D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 294
+ERROR - 2017-11-22 19:42:59 --> Severity: Notice --> Undefined variable: length D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 430

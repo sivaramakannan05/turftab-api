@@ -1,0 +1,8 @@
+ERROR - 2017-11-06 15:57:17 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Settings.php 237
+ERROR - 2017-11-06 15:57:17 --> Severity: Notice --> Undefined index: unique_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Settings.php 238
+ERROR - 2017-11-06 15:57:46 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Settings.php 237
+ERROR - 2017-11-06 15:57:46 --> Severity: Notice --> Undefined index: unique_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Settings.php 238
+ERROR - 2017-11-06 18:09:45 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\turf_tab\turftab_service\controllers\Settings.php 36
+ERROR - 2017-11-06 18:09:45 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\turf_tab\turftab_service\controllers\Settings.php 48
+ERROR - 2017-11-06 19:46:09 --> Severity: Notice --> Undefined index: action_id D:\xampp\htdocs\turf_tab\turftab_service\models\Profile_model.php 63
+ERROR - 2017-11-06 19:46:10 --> Severity: Notice --> Undefined index: action_id D:\xampp\htdocs\turf_tab\turftab_service\models\Profile_model.php 72

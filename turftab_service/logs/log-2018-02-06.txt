@@ -1,0 +1,807 @@
+ERROR - 2018-02-06 11:25:56 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\turf_tab\turftab_service\controllers\Tictactoe.php 35
+ERROR - 2018-02-06 11:25:56 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\turf_tab\turftab_service\controllers\Tictactoe.php 52
+ERROR - 2018-02-06 11:32:14 --> Severity: Notice --> Undefined index: no_of_players_joined D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 24
+ERROR - 2018-02-06 11:32:14 --> Severity: Notice --> Undefined index: no_of_players_joined D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 26
+ERROR - 2018-02-06 11:33:04 --> Severity: Notice --> Undefined index: game_id D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 43
+ERROR - 2018-02-06 12:35:45 --> Query error: Unknown column 'gt.no_of_players_joined' in 'field list' - Invalid query: SELECT `gt`.`game_tictactoe_id`, (CASE WHEN u.users_id=2 THEN u.users_id ELSE ur.users_id END) as user_id, (CASE WHEN u.users_id=2 THEN u.user_fullname ELSE ur.user_fullname END) as user_name, (CASE WHEN u.users_id=2 THEN ur.users_id ELSE u.users_id END) as opponent_id, (CASE WHEN u.users_id=2 THEN ur.user_fullname ELSE u.user_fullname END) as opponent_name, `gt`.`beginner_id`, `gt`.`no_of_players_joined`
+FROM `ct_game_tictactoe` `gt`
+INNER JOIN `ct_users` `u` ON `u`.`users_id`=`gt`.`sender_id`
+INNER JOIN `ct_users` `ur` ON `ur`.`users_id`=`gt`.`receiver_id`
+WHERE (`gt`.`game_tictactoe_id` = "1" AND `gt`.`tictactoe_status` != 3)
+ERROR - 2018-02-06 12:38:13 --> Query error: Unknown column 'gt.no_of_players_joined' in 'field list' - Invalid query: SELECT `gt`.`game_tictactoe_id`, (CASE WHEN u.users_id=2 THEN u.users_id ELSE ur.users_id END) as user_id, (CASE WHEN u.users_id=2 THEN u.user_fullname ELSE ur.user_fullname END) as user_name, (CASE WHEN u.users_id=2 THEN ur.users_id ELSE u.users_id END) as opponent_id, (CASE WHEN u.users_id=2 THEN ur.user_fullname ELSE u.user_fullname END) as opponent_name, `gt`.`beginner_id`, `gt`.`no_of_players_joined`
+FROM `ct_game_tictactoe` `gt`
+INNER JOIN `ct_users` `u` ON `u`.`users_id`=`gt`.`sender_id`
+INNER JOIN `ct_users` `ur` ON `ur`.`users_id`=`gt`.`receiver_id`
+WHERE (`gt`.`game_tictactoe_id` = "1" AND `gt`.`tictactoe_status` != 3)
+ERROR - 2018-02-06 13:35:02 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE), expecting '(' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:35:02 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE), expecting '(' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:35:02 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE), expecting '(' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:35:04 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 87
+ERROR - 2018-02-06 13:35:04 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 87
+ERROR - 2018-02-06 13:35:04 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 87
+ERROR - 2018-02-06 13:35:06 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 87
+ERROR - 2018-02-06 13:35:06 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 87
+ERROR - 2018-02-06 13:36:02 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 88
+ERROR - 2018-02-06 13:36:03 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 88
+ERROR - 2018-02-06 13:36:04 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 88
+ERROR - 2018-02-06 13:36:04 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 88
+ERROR - 2018-02-06 13:36:05 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 88
+ERROR - 2018-02-06 13:36:06 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 88
+ERROR - 2018-02-06 13:36:06 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 88
+ERROR - 2018-02-06 13:36:07 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:36:08 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:08 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:09 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:10 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:10 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:11 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:12 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:12 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:13 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:14 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:14 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:15 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:16 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:16 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:17 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:18 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:19 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:19 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:20 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:20 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:21 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:22 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:22 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:23 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:24 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:24 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:25 --> Severity: Parsing Error --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:36:26 --> Severity: Parsing Error --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:36:26 --> Severity: Parsing Error --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:36:27 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:28 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:28 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:29 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:30 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:30 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:31 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:32 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:32 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:33 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:34 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:34 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:36 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:36 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:37 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:37 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:38 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:38 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:39 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:40 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:40 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:42 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:42 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:42 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:43 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:44 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:44 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:46 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:46 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:46 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:48 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:48 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:48 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:50 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:50 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:50 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:52 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:52 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:52 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:54 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:54 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:54 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:56 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:56 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:56 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:58 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:58 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:36:58 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:00 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:00 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:00 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:02 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:02 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:02 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:04 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:04 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:04 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:06 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:06 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:06 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:08 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:08 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:08 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:10 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:10 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:10 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:12 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:12 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:12 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:14 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:14 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:14 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:16 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:16 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:17 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:18 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:18 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:18 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:20 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:20 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:20 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:22 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:22 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:22 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:24 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:24 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:24 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:26 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:26 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:26 --> Severity: Parsing Error --> syntax error, unexpected 'player1_id' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:28 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:29 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:29 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:30 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:30 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:31 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:32 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:32 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:33 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:34 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:34 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:35 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:36 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:37 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:37 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:38 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:38 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:39 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:40 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:40 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:41 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:42 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:42 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:43 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:44 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:44 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:45 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:46 --> Severity: Parsing Error --> syntax error, unexpected 'game_tictactoe_id' (T_STRING), expecting ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 103
+ERROR - 2018-02-06 13:37:46 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:47 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:48 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:48 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:49 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:50 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:50 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:51 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:52 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:52 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:53 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:54 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:54 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:55 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:56 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:57 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:57 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:58 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:58 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:37:59 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:00 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:00 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:01 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:02 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:02 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:03 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:04 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:04 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:05 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:06 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:06 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:07 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:09 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:09 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:09 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:11 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:11 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:11 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:12 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:13 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:13 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:14 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:14 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:15 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:16 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:17 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:17 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:18 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:18 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:19 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:20 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:20 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:21 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:22 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:22 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:23 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:24 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:24 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:25 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:26 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:26 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:27 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:28 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:28 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:29 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:38:30 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:31 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:31 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:32 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:33 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:33 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:34 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:35 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:35 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:36 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:37 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:37 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:38 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 95
+ERROR - 2018-02-06 13:38:39 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 95
+ERROR - 2018-02-06 13:38:39 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 95
+ERROR - 2018-02-06 13:38:40 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 95
+ERROR - 2018-02-06 13:38:41 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 95
+ERROR - 2018-02-06 13:38:41 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 95
+ERROR - 2018-02-06 13:38:42 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:43 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:43 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:45 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:45 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:45 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:47 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:47 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:47 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:48 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:49 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:49 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:50 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:51 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:51 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:52 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:53 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:53 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:54 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:55 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:55 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:56 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:57 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:57 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:58 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:59 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:38:59 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:39:00 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:39:01 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:39:01 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:39:02 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:39:03 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:39:03 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:39:04 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 89
+ERROR - 2018-02-06 13:39:05 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:05 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:07 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:07 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:07 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:08 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:09 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:09 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:10 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:11 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:11 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 90
+ERROR - 2018-02-06 13:39:12 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:13 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:13 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:14 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:15 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:15 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:16 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:17 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:17 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:18 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:19 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:19 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 92
+ERROR - 2018-02-06 13:39:20 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:21 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:21 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:22 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:23 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:23 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:24 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:25 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:25 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 91
+ERROR - 2018-02-06 13:39:26 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 94
+ERROR - 2018-02-06 13:39:27 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 94
+ERROR - 2018-02-06 13:39:27 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 94
+ERROR - 2018-02-06 13:39:28 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 94
+ERROR - 2018-02-06 13:39:29 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 94
+ERROR - 2018-02-06 13:39:29 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 94
+ERROR - 2018-02-06 13:39:31 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 94
+ERROR - 2018-02-06 13:39:31 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:31 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:32 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:33 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:33 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:34 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:35 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:35 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:36 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:37 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:37 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:38 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:39 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:39 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:40 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:41 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:41 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:42 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:43 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:43 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:44 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:45 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:45 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:46 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:47 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:47 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:49 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:49 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:49 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:50 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:51 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:51 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:52 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:53 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:53 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:55 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:55 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:55 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:39:56 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:39:57 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:39:57 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:39:58 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:39:59 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:39:59 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:40:00 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:40:01 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:40:01 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:40:02 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:40:03 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:40:03 --> Severity: Parsing Error --> syntax error, unexpected '}' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 93
+ERROR - 2018-02-06 13:40:04 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:05 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:05 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:06 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:07 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:07 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:08 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:09 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:09 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:10 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:11 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:11 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:12 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:13 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:13 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:14 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:15 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:15 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 98
+ERROR - 2018-02-06 13:40:16 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:17 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:18 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:18 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:19 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:20 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:20 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:21 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:22 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:22 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:23 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:24 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:24 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 13:40:25 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 13:40:26 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 13:40:26 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 13:40:27 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 13:40:28 --> Severity: Parsing Error --> syntax error, unexpected 'int' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 13:40:28 --> Severity: Parsing Error --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 13:40:29 --> Severity: Parsing Error --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 13:40:30 --> Severity: Parsing Error --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 13:40:30 --> Severity: Parsing Error --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 99
+ERROR - 2018-02-06 15:23:22 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:23 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:23 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:24 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:25 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:25 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:26 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:27 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:27 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:28 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:28 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:29 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:30 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:31 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:31 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:32 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:33 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:33 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:35 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:35 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:35 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:37 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:37 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:37 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:39 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:39 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:39 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:40 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:41 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:41 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:42 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:43 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:23:43 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:24:09 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:09 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:09 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:11 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:11 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:11 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:13 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:13 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:13 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:15 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:15 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:15 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:19 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:19 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:19 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:21 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:21 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:21 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:23 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:23 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:23 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:25 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:25 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:25 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:27 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:27 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:27 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:29 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:29 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:29 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:33 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:33 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:33 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:35 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:35 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:35 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:37 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:37 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:38 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:39 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:39 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:40 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:41 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:41 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:42 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:43 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:43 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:44 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:45 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:45 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:46 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:46 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:47 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:48 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:48 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:49 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:50 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:50 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:51 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:52 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:53 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:53 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:54 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:55 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:55 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:56 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:57 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:57 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:58 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:58 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:24:59 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:00 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:01 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:01 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:02 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:03 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:03 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:04 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:04 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:05 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:06 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:07 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:07 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:08 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:09 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:09 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:10 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:11 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:11 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:12 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:12 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:13 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:14 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:15 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:15 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:16 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:18 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:18 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:19 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:20 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:21 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:21 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:22 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:22 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:23 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:24 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:24 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:25 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:26 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:26 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:27 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:28 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:28 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:29 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:30 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:32 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:32 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:33 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:34 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:35 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:35 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:36 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:37 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:37 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:38 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:38 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:39 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:40 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:40 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:41 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:42 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:43 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:43 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:44 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:44 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:45 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:46 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:47 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:47 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:48 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:49 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:50 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:50 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:51 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:52 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:52 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:52 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:54 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:54 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:55 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:56 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:56 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:57 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:58 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:58 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:25:59 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:00 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:00 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:00 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:02 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:02 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:03 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:04 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:04 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:04 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:06 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:06 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:07 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:08 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:08 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:08 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:10 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:10 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:11 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:12 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:12 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:13 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:14 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:14 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:15 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:16 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:18 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:19 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:19 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:20 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:20 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:21 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:22 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:23 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:23 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:24 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:25 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:25 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:26 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:27 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:27 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:28 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:28 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:29 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:30 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:32 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:33 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:33 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:34 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:34 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:35 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:36 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:37 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:37 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:38 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:39 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:39 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:40 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:40 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:41 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:42 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:43 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:43 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:44 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:45 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:45 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:46 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:46 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:47 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:48 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:48 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:49 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:50 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:51 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:51 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:52 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:52 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:53 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:54 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:55 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:55 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:56 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:57 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:57 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:58 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:59 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:26:59 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:00 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:01 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:01 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:02 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:03 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:03 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:04 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:05 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:05 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:06 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:06 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:07 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:08 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:09 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:09 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:10 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:11 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:11 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:12 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:12 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:13 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:14 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:15 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:15 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:16 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:17 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:18 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:19 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:19 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:20 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:21 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:21 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:22 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:22 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:23 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:24 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:24 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:25 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:26 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:26 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:27 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:28 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:29 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:29 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:30 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:31 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:33 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:33 --> Severity: Parsing Error --> syntax error, unexpected '$update_status' (T_VARIABLE) D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 100
+ERROR - 2018-02-06 15:27:34 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:27:35 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:27:35 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:27:36 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:27:37 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:27:37 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:27:38 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:27:39 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:27:39 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:44 --> Severity: 4096 --> Object of class Tictactoe_model could not be converted to string D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: Notice --> Object of class Tictactoe_model to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$Object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: Error --> Call to a member function set() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: 4096 --> Object of class Tictactoe_model could not be converted to string D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: Notice --> Object of class Tictactoe_model to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$Object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:35:45 --> Severity: Error --> Call to a member function set() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:50 --> Severity: 4096 --> Object of class Tictactoe_model could not be converted to string D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:50 --> Severity: Notice --> Object of class Tictactoe_model to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:50 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$Object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:50 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:50 --> Severity: Error --> Call to a member function set() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:52 --> Severity: 4096 --> Object of class Tictactoe_model could not be converted to string D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:52 --> Severity: Notice --> Object of class Tictactoe_model to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:52 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$Object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:52 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:36:52 --> Severity: Error --> Call to a member function set() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:04 --> Severity: 4096 --> Object of class Tictactoe_model could not be converted to string D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:04 --> Severity: Notice --> Object of class Tictactoe_model to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:04 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$Object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:04 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:04 --> Severity: Error --> Call to a member function set() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:05 --> Severity: 4096 --> Object of class Tictactoe_model could not be converted to string D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:05 --> Severity: Notice --> Object of class Tictactoe_model to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:05 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$Object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:05 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:39:05 --> Severity: Error --> Call to a member function set() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:42:22 --> Severity: 4096 --> Object of class Tictactoe_model could not be converted to string D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:42:22 --> Severity: Notice --> Object of class Tictactoe_model to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:42:22 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$Object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:42:22 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97
+ERROR - 2018-02-06 15:42:22 --> Severity: Error --> Call to a member function set() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\models\Tictactoe_model.php 97

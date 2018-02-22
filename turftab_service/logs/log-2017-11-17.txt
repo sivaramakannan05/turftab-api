@@ -1,0 +1,87 @@
+ERROR - 2017-11-17 13:38:58 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u' at line 1 - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `c`.`conversation_id`, `c`.`content`, `c`.`content_type`, `c`.`conversation_from_id_status`, `c`.`conversation_to_id_status`, `c`.`conversation_created_date`, (SUM(CASE WHEN c.conversation_to_id_status=3 AND THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)))
+GROUP BY `user_id`
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `c`.`conversation_id` desc
+ERROR - 2017-11-17 13:39:15 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u' at line 1 - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `c`.`conversation_id`, `c`.`content`, `c`.`content_type`, `c`.`conversation_from_id_status`, `c`.`conversation_to_id_status`, `c`.`conversation_created_date`, (SUM(CASE WHEN c.conversation_to_id_status=3 AND THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)))
+GROUP BY `user_id`
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `c`.`conversation_id` desc
+ERROR - 2017-11-17 13:39:22 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u' at line 1 - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `c`.`conversation_id`, `c`.`content`, `c`.`content_type`, `c`.`conversation_from_id_status`, `c`.`conversation_to_id_status`, `c`.`conversation_created_date`, SUM(CASE WHEN c.conversation_to_id_status=3 AND THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)))
+GROUP BY `user_id`
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `c`.`conversation_id` desc
+ERROR - 2017-11-17 13:39:27 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'THEN 1 ELSE 0 END) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u`' at line 1 - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `c`.`conversation_id`, `c`.`content`, `c`.`content_type`, `c`.`conversation_from_id_status`, `c`.`conversation_to_id_status`, `c`.`conversation_created_date`, SUM(CASE WHEN c.conversation_to_id_status=3 AND THEN 1 ELSE 0 END) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)))
+GROUP BY `user_id`
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `c`.`conversation_id` desc
+ERROR - 2017-11-17 13:39:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'THEN 1 ELSE 0 END) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u`' at line 1 - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `c`.`conversation_id`, `c`.`content`, `c`.`content_type`, `c`.`conversation_from_id_status`, `c`.`conversation_to_id_status`, `c`.`conversation_created_date`, SUM(CASE WHEN c.conversation_to_id_status="3" AND THEN 1 ELSE 0 END) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)))
+GROUP BY `user_id`
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `c`.`conversation_id` desc
+ERROR - 2017-11-17 13:40:03 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u' at line 1 - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `c`.`conversation_id`, `c`.`content`, `c`.`content_type`, `c`.`conversation_from_id_status`, `c`.`conversation_to_id_status`, `c`.`conversation_created_date`, (SUM(CASE WHEN c.conversation_to_id_status="3" AND THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)))
+GROUP BY `user_id`
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `c`.`conversation_id` desc
+ERROR - 2017-11-17 13:46:57 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`desc`
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blockl' at line 5 - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `c`.`conversation_id`, `c`.`content`, `c`.`content_type`, `c`.`conversation_from_id_status`, `c`.`conversation_to_id_status`, `c`.`conversation_created_date`, (SUM(CASE WHEN (c.conversation_to_id_status="2" AND c.conversation_to_id="4") THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)))
+GROUP BY `user_id` `desc`
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `c`.`conversation_id` desc
+ERROR - 2017-11-17 15:44:53 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`;`)
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklis' at line 5 - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, MAX(c.conversation_id) as conversation_id, `c`.`content`, (SUM(CASE WHEN (c.conversation_to_id_status="2" AND c.conversation_to_id="4") THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_conversation` `c1` ON `c`.`conversation_id`<`c1`.`conversation_id` AND `c`.`conversation_from_id`=`c1`.`conversation_from_id` AND `c`.`conversation_to_id`=`c1conversation_to_id`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)) AND `c1`.`conversation_id` is NULL `;`)
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `conversation_id` desc
+ERROR - 2017-11-17 15:45:22 --> Query error: Unknown column 'c1conversation_to_id' in 'on clause' - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, MAX(c.conversation_id) as conversation_id, `c`.`content`, (SUM(CASE WHEN (c.conversation_to_id_status="2" AND c.conversation_to_id="4") THEN 1 ELSE 0 END)) as unseen
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_conversation` `c1` ON `c`.`conversation_id`<`c1`.`conversation_id` AND `c`.`conversation_from_id`=`c1`.`conversation_from_id` AND `c`.`conversation_to_id`=`c1conversation_to_id`
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)) AND `c1`.`conversation_id` is NULL)
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `conversation_id` desc
+ERROR - 2017-11-17 16:13:26 --> Query error: Operand should contain 1 column(s) - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `c`.`conversation_id`, `c`.`content`, `c`.`content_type`, `c`.`conversation_created_date`, (SELECT count(*) FROM ct_conversation as c1 WHERE c1.conversation_from_id=u.users_id AND c1.conversation_to_id_status=2) as unseen_count, (SELECT * FROM ct_conversation as c1 WHERE c1.conversation_from_id=u.users_id AND c1.conversation_to_id_status=2)
+FROM `ct_conversation` `c`
+LEFT JOIN `ct_conversation` `c1` ON `c`.`conversation_id`<`c1`.`conversation_id` AND ((`c`.`conversation_from_id`=`c1`.`conversation_from_id` AND `c`.`conversation_to_id`=c1.conversation_to_id) OR (`c`.`conversation_from_id`=`c1`.`conversation_to_id` AND `c`.`conversation_to_id`=c1.conversation_from_id))
+LEFT JOIN `ct_users` `u` ON ((`c`.`conversation_from_id`=`u`.`users_id` AND `c`.`conversation_to_id`="4") OR (`c`.`conversation_to_id`=`u`.`users_id` AND `c`.`conversation_from_id`="4"))
+WHERE (`c`.`conversation_status` = 1 AND ((c.conversation_from_id = "4" AND `c`.`conversation_from_id_status` != 4) OR (`c`.`conversation_to_id` = "4" AND c.conversation_to_id_status!=4)) AND `c1`.`conversation_id` is NULL)
+HAVING user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+ORDER BY `conversation_id` desc
+ERROR - 2017-11-17 16:28:42 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 172
+ERROR - 2017-11-17 16:28:42 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 185
+ERROR - 2017-11-17 16:38:59 --> Severity: Parsing Error --> syntax error, unexpected '.' D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 170

@@ -1,0 +1,5 @@
+Date_time : 2017-12-14 13:40:38 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2017-12-14 13:41:05 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2017-12-14 13:42:05 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2017-12-14 13:42:33 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2017-12-14 13:51:47 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration

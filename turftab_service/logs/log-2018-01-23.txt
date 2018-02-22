@@ -1,0 +1,63 @@
+ERROR - 2018-01-23 13:41:51 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 25
+ERROR - 2018-01-23 13:41:51 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 25
+ERROR - 2018-01-23 13:42:18 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 25
+ERROR - 2018-01-23 13:42:18 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 25
+ERROR - 2018-01-23 13:42:19 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 25
+ERROR - 2018-01-23 13:42:19 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 25
+ERROR - 2018-01-23 13:42:31 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 28
+ERROR - 2018-01-23 13:42:31 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 28
+ERROR - 2018-01-23 13:42:32 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 28
+ERROR - 2018-01-23 13:42:32 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 28
+ERROR - 2018-01-23 13:42:45 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 28
+ERROR - 2018-01-23 13:42:45 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 28
+ERROR - 2018-01-23 13:42:46 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 28
+ERROR - 2018-01-23 13:42:46 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 28
+ERROR - 2018-01-23 13:44:58 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 30
+ERROR - 2018-01-23 13:44:58 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 30
+ERROR - 2018-01-23 13:45:35 --> Severity: Notice --> Undefined property: Referral::$referral D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 30
+ERROR - 2018-01-23 13:45:35 --> Severity: Error --> Call to a member function generate_referral_code() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 30
+ERROR - 2018-01-23 13:46:46 --> Severity: Notice --> Use of undefined constant BASE_URL - assumed 'BASE_URL' D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 11
+ERROR - 2018-01-23 13:46:59 --> Severity: Notice --> Use of undefined constant BASE_URL - assumed 'BASE_URL' D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 11
+ERROR - 2018-01-23 13:47:16 --> Severity: Notice --> Use of undefined constant BASE_URL - assumed 'BASE_URL' D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 11
+ERROR - 2018-01-23 13:49:10 --> Severity: Warning --> file_get_contents(http://localhost/chat_turftab/assets/refferal_code/code.txt): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 13
+ERROR - 2018-01-23 13:49:29 --> Severity: Warning --> file_get_contents(../assets/refferal_code/code.txt): failed to open stream: No such file or directory D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 13
+ERROR - 2018-01-23 13:49:41 --> Severity: Warning --> file_get_contents(../assets/referral_code/code.txt): failed to open stream: No such file or directory D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 13
+ERROR - 2018-01-23 13:59:43 --> Severity: Warning --> file_get_contents(D:\xampp\htdocs\turf_tab\turftab_service\libraries../../assets/refferal_code/code.txt): failed to open stream: No such file or directory D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 13
+ERROR - 2018-01-23 13:59:58 --> Severity: Warning --> file_get_contents(D:\xampp\htdocs\turf_tab\turftab_service\libraries../../assets/referral_code/code.txt): failed to open stream: No such file or directory D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 13
+ERROR - 2018-01-23 14:03:23 --> Severity: Notice --> Use of undefined constant file_url - assumed 'file_url' D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 18
+ERROR - 2018-01-23 14:03:23 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 18
+ERROR - 2018-01-23 14:03:25 --> Severity: Notice --> Use of undefined constant file_url - assumed 'file_url' D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 18
+ERROR - 2018-01-23 14:03:25 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 18
+ERROR - 2018-01-23 14:03:35 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 18
+ERROR - 2018-01-23 14:03:58 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 14:04:07 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 14:06:50 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 14:06:56 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 14:07:06 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 14:07:23 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 14:07:24 --> Severity: Error --> Cannot access empty property D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 14:07:53 --> Severity: Error --> Undefined class constant 'initial_code' D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 14:07:59 --> Severity: Error --> Access to undeclared static property: Referral_Code::$initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 14
+ERROR - 2018-01-23 16:10:59 --> Severity: Error --> Call to undefined function create_dynamic_integer() D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:11:21 --> Severity: Error --> Call to undefined function create_dynamic_integer() D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:11:35 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:11:35 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:11:49 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:11:49 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:13:19 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:13:19 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:13:44 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:13:44 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 29
+ERROR - 2018-01-23 16:14:11 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 31
+ERROR - 2018-01-23 16:14:11 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 31
+ERROR - 2018-01-23 16:14:45 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 18
+ERROR - 2018-01-23 16:14:45 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 20
+ERROR - 2018-01-23 16:14:45 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 32
+ERROR - 2018-01-23 16:14:45 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 32
+ERROR - 2018-01-23 16:14:54 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 32
+ERROR - 2018-01-23 16:14:54 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 32
+ERROR - 2018-01-23 16:15:17 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 18
+ERROR - 2018-01-23 16:15:17 --> Severity: Notice --> Undefined variable: initial_code D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 20
+ERROR - 2018-01-23 16:15:17 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 32
+ERROR - 2018-01-23 16:15:17 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\libraries\Referral_Code.php 32

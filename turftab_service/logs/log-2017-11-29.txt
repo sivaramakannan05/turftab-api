@@ -1,0 +1,54 @@
+ERROR - 2017-11-29 12:40:23 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 155
+ERROR - 2017-11-29 12:40:23 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 202
+ERROR - 2017-11-29 12:40:37 --> Severity: Notice --> Undefined index: event_id D:\xampp\htdocs\turf_tab\turftab_service\models\Review_model.php 124
+ERROR - 2017-11-29 12:50:29 --> Query error: Unknown column 'e.e.event_startdate' in 'field list' - Invalid query: SELECT `e`.`events_id` as `event_id`, `e`.`event_name`, `e`.`event_image`, `e`.`e`.`event_startdate`, `e`.`event_enddate`, `e`.`event_address`, `e`.`event_lattitude`, `e`.`event_longitude`, `e`.`event_details`, `e`.`event_category`, `e`.`event_type`, `e`.`event_updated_date`, `e`.`event_created_date`, `r`.`reviews_id`, `r`.`comments` as `review`, `r`.`reviews_type`, `r`.`reviews_created_date`, `re`.`reply_id`, `re`.`comments` as `reply`, `re`.`reply_created_date`, `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `ua`.`users_id` as `admin_user_id`, `ua`.`user_fullname`, `ua`.`user_name`, `ua`.`user_profile_image`
+FROM `ct_events` `e`
+LEFT JOIN `ct_reviews` `r` ON `e`.`events_id`=`r`.`events_id` AND `r`.`reviews_status`=1
+LEFT JOIN `ct_reply` `rp` ON `r`.`reviews_id`=`rp`.`reviews_id` AND `rp`.`reply_status`=1
+LEFT JOIN `ct_users` `u` ON `r`.`users_id`=`u`.`users_id`
+LEFT JOIN `ct_users` `ua` ON `r`.`event_user_id`=`ua`.`users_id`
+WHERE (`e`.`events_id` = "48" AND `e`.`event_status` = 2)
+ERROR - 2017-11-29 12:50:44 --> Query error: Unknown column 're.reply_id' in 'field list' - Invalid query: SELECT `e`.`events_id` as `event_id`, `e`.`event_name`, `e`.`event_image`, `e`.`event_startdate`, `e`.`event_enddate`, `e`.`event_address`, `e`.`event_lattitude`, `e`.`event_longitude`, `e`.`event_details`, `e`.`event_category`, `e`.`event_type`, `e`.`event_updated_date`, `e`.`event_created_date`, `r`.`reviews_id`, `r`.`comments` as `review`, `r`.`reviews_type`, `r`.`reviews_created_date`, `re`.`reply_id`, `re`.`comments` as `reply`, `re`.`reply_created_date`, `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `ua`.`users_id` as `admin_user_id`, `ua`.`user_fullname`, `ua`.`user_name`, `ua`.`user_profile_image`
+FROM `ct_events` `e`
+LEFT JOIN `ct_reviews` `r` ON `e`.`events_id`=`r`.`events_id` AND `r`.`reviews_status`=1
+LEFT JOIN `ct_reply` `rp` ON `r`.`reviews_id`=`rp`.`reviews_id` AND `rp`.`reply_status`=1
+LEFT JOIN `ct_users` `u` ON `r`.`users_id`=`u`.`users_id`
+LEFT JOIN `ct_users` `ua` ON `r`.`event_user_id`=`ua`.`users_id`
+WHERE (`e`.`events_id` = "48" AND `e`.`event_status` = 2)
+ERROR - 2017-11-29 16:13:05 --> Severity: Notice --> Undefined index: admin_user_name D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 63
+ERROR - 2017-11-29 16:13:05 --> Severity: Notice --> Undefined index: reviews_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 76
+ERROR - 2017-11-29 16:13:05 --> Severity: Notice --> Undefined index: reviews_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 76
+ERROR - 2017-11-29 16:13:05 --> Severity: Notice --> Undefined index: reviews_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 76
+ERROR - 2017-11-29 16:13:05 --> Severity: Notice --> Undefined index: admin_user_name D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 63
+ERROR - 2017-11-29 16:13:05 --> Severity: Notice --> Undefined index: reviews_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 76
+ERROR - 2017-11-29 16:13:05 --> Severity: Notice --> Undefined index: admin_user_name D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 63
+ERROR - 2017-11-29 16:13:05 --> Severity: Notice --> Undefined index: admin_user_name D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 63
+ERROR - 2017-11-29 16:13:46 --> Severity: Notice --> Undefined index: reviews_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 76
+ERROR - 2017-11-29 16:13:46 --> Severity: Notice --> Undefined index: reviews_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 76
+ERROR - 2017-11-29 16:13:46 --> Severity: Notice --> Undefined index: reviews_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 76
+ERROR - 2017-11-29 16:13:46 --> Severity: Notice --> Undefined index: reviews_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 76
+ERROR - 2017-11-29 16:30:12 --> Severity: Notice --> Undefined variable: reply_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 67
+ERROR - 2017-11-29 16:30:12 --> Severity: Notice --> Undefined variable: reply_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 67
+ERROR - 2017-11-29 16:30:12 --> Severity: Notice --> Undefined variable: reply_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 67
+ERROR - 2017-11-29 16:30:12 --> Severity: Notice --> Undefined variable: reply_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 67
+ERROR - 2017-11-29 16:30:12 --> Severity: Notice --> Undefined variable: reply_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 67
+ERROR - 2017-11-29 16:30:12 --> Severity: Notice --> Undefined variable: reply_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 67
+ERROR - 2017-11-29 16:30:12 --> Severity: Notice --> Undefined variable: reply_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 67
+ERROR - 2017-11-29 16:30:12 --> Severity: Notice --> Undefined variable: reply_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 67
+ERROR - 2017-11-29 16:36:51 --> Query error: Unknown column 'r.reply_id' in 'order clause' - Invalid query: SELECT `r`.`reviews_id`, `r`.`comments` as `review`, `r`.`reviews_type`, `r`.`reviews_created_date`, `rp`.`reply_id`, `rp`.`comments` as `reply`, `rp`.`reply_created_date`, `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `ua`.`users_id` as `admin_user_id`, `ua`.`user_fullname` as `admin_user_fullname`, `ua`.`user_name` as `admin_user_name`, `ua`.`user_profile_image` as `admin_user_profile_image`
+FROM `ct_reviews` `r`
+LEFT JOIN `ct_reply` `rp` ON `r`.`reviews_id`=`rp`.`reviews_id` AND `rp`.`reply_status`=1
+LEFT JOIN `ct_users` `u` ON `r`.`users_id`=`u`.`users_id`
+LEFT JOIN `ct_users` `ua` ON `r`.`event_user_id`=`ua`.`users_id`
+WHERE (`r`.`events_id` = "48" AND `r`.`reviews_status` = 1)
+ORDER BY `r`.`reviews_id` desc, `r`.`reply_id` desc
+ERROR - 2017-11-29 16:37:07 --> Query error: Unknown column 're.reply_id' in 'order clause' - Invalid query: SELECT `r`.`reviews_id`, `r`.`comments` as `review`, `r`.`reviews_type`, `r`.`reviews_created_date`, `rp`.`reply_id`, `rp`.`comments` as `reply`, `rp`.`reply_created_date`, `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `u`.`user_profile_image`, `ua`.`users_id` as `admin_user_id`, `ua`.`user_fullname` as `admin_user_fullname`, `ua`.`user_name` as `admin_user_name`, `ua`.`user_profile_image` as `admin_user_profile_image`
+FROM `ct_reviews` `r`
+LEFT JOIN `ct_reply` `rp` ON `r`.`reviews_id`=`rp`.`reviews_id` AND `rp`.`reply_status`=1
+LEFT JOIN `ct_users` `u` ON `r`.`users_id`=`u`.`users_id`
+LEFT JOIN `ct_users` `ua` ON `r`.`event_user_id`=`ua`.`users_id`
+WHERE (`r`.`events_id` = "48" AND `r`.`reviews_status` = 1)
+ORDER BY `r`.`reviews_id` desc, `re`.`reply_id` desc
+ERROR - 2017-11-29 18:30:47 --> Severity: Notice --> Undefined index: message D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 84
+ERROR - 2017-11-29 18:31:49 --> Severity: Notice --> Undefined index: message D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 86
+ERROR - 2017-11-29 18:43:47 --> Severity: Notice --> Undefined variable: event_user_id D:\xampp\htdocs\turf_tab\turftab_service\models\Review_model.php 83

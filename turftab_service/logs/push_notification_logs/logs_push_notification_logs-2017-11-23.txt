@@ -1,0 +1,1 @@
+Date_time : 2017-11-23 18:29:25 --> Status : FALSE --> Device Token : fsdfsrdcsdccccccsddsfdfv --> User ID : 4 -->  Error Message : InvalidRegistration

@@ -1,0 +1,57 @@
+ERROR - 2018-01-05 12:10:19 --> Query error: Not unique table/alias: 'g' - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `gm`.`chat_group_id`, `gm`.`chat_group_name`, `gm`.`chat_group_status`, `gm`.`chat_group_updated_date`, `gm`.`chat_group_created_date`
+FROM `ct_group_members` `gm`
+INNER JOIN `ct_chat_group` `g` ON `gm`.`chat_group_id`=`g`.`chat_group_id` AND `g`.`chat_group_status`=1
+INNER JOIN `ct_chat_group` `g` ON `gm`.`chat_group_id`=`g`.`chat_group_id` AND `g`.`chat_group_status`=1
+INNER JOIN `ct_users` `u` ON `g`.`chat_group_admin_id`=`u`.`users_id`
+WHERE (`gm`.`group_member_id` = "4" AND `gm`.`group_members_status` = 1)
+ERROR - 2018-01-05 12:10:50 --> Query error: Unknown column 'gm.chat_group_name' in 'field list' - Invalid query: SELECT `u`.`users_id` as `user_id`, `u`.`user_fullname`, `u`.`user_name`, `gm`.`chat_group_id`, `gm`.`chat_group_name`, `gm`.`chat_group_status`, `gm`.`chat_group_updated_date`, `gm`.`chat_group_created_date`
+FROM `ct_group_members` `gm`
+INNER JOIN `ct_chat_group` `g` ON `gm`.`chat_group_id`=`g`.`chat_group_id` AND `g`.`chat_group_status`=1
+INNER JOIN `ct_users` `u` ON `g`.`chat_group_admin_id`=`u`.`users_id`
+WHERE (`gm`.`group_member_id` = "4" AND `gm`.`group_members_status` = 1)
+ERROR - 2018-01-05 16:33:36 --> Severity: Compile Error --> Cannot redeclare Chat::user_local_chat_conversation() D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 273
+ERROR - 2018-01-05 16:33:53 --> Severity: Compile Error --> Cannot redeclare Chat::user_local_chat_conversation() D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 273
+ERROR - 2018-01-05 16:34:21 --> Severity: Notice --> Undefined index: chat_media_type D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 292
+ERROR - 2018-01-05 16:34:21 --> Severity: Notice --> Undefined index: chat_media_type D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 292
+ERROR - 2018-01-05 16:34:21 --> Severity: Notice --> Undefined index: chat_media_type D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 295
+ERROR - 2018-01-05 16:34:21 --> Severity: Notice --> Undefined index: chat_media_type D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 295
+ERROR - 2018-01-05 16:34:21 --> Severity: Notice --> Undefined index: chat_media_type D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 295
+ERROR - 2018-01-05 16:34:21 --> Severity: Notice --> Undefined index: chat_media_type D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 295
+ERROR - 2018-01-05 16:34:21 --> Severity: Notice --> Undefined index: chat_media_type D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 295
+ERROR - 2018-01-05 17:45:10 --> Severity: Warning --> Missing argument 1 for Chat_model::insert_local_message(), called in D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php on line 325 and defined D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 424
+ERROR - 2018-01-05 17:45:10 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 426
+ERROR - 2018-01-05 17:45:10 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 428
+ERROR - 2018-01-05 17:45:10 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 429
+ERROR - 2018-01-05 17:45:10 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 431
+ERROR - 2018-01-05 17:45:10 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 431
+ERROR - 2018-01-05 17:45:10 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 431
+ERROR - 2018-01-05 17:45:10 --> Severity: Notice --> Undefined variable: nearby_query D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 432
+ERROR - 2018-01-05 17:45:10 --> Severity: Warning --> mysqli::query(): Empty query D:\xampp\htdocs\turf_tab\turftab_system\database\drivers\mysqli\mysqli_driver.php 305
+ERROR - 2018-01-05 17:45:10 --> Query error:  - Invalid query: 
+ERROR - 2018-01-05 17:45:10 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\turf_tab\turftab_system\core\Exceptions.php:271) D:\xampp\htdocs\turf_tab\turftab_system\core\Common.php 570
+ERROR - 2018-01-05 17:45:22 --> Severity: Notice --> Undefined variable: nearby_query D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 432
+ERROR - 2018-01-05 17:45:22 --> Severity: Warning --> mysqli::query(): Empty query D:\xampp\htdocs\turf_tab\turftab_system\database\drivers\mysqli\mysqli_driver.php 305
+ERROR - 2018-01-05 17:45:22 --> Query error:  - Invalid query: 
+ERROR - 2018-01-05 17:47:11 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE users_id!='4' AND users_id NOT IN (select (CASE WHEN blocklist_from_id!=4 ' at line 1 - Invalid query: SELECT users_id, 3956 * 2 * ASIN(SQRT( POWER(SIN((212.3232 - user_lattitude) * pi()/180 / 2), 2) + COS(212.3232 * pi()/180) * COS(user_lattitude * pi()/180) *POWER(SIN((32323.21212 - user_longitude) * pi()/180 / 2), 2) )) as distance FROM ct_users HAVING distance <= 10 WHERE users_id!='4' AND users_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_blocklist where blocklist_from_id = '4' OR blocklist_to_id = '4')
+ERROR - 2018-01-05 17:51:10 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 434
+ERROR - 2018-01-05 17:51:15 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_service\models\Chat_model.php 434
+ERROR - 2018-01-05 18:09:19 --> Severity: Notice --> Undefined variable: thumbnail_path D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 321
+ERROR - 2018-01-05 18:38:59 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 365
+ERROR - 2018-01-05 18:38:59 --> Severity: Notice --> Undefined index: local_conversation_created_date D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 369
+ERROR - 2018-01-05 18:38:59 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 279
+ERROR - 2018-01-05 18:39:00 --> Severity: Notice --> Undefined index: notifications_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 309
+ERROR - 2018-01-05 18:39:02 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 355
+ERROR - 2018-01-05 18:39:21 --> Severity: Notice --> Undefined index: local_conversation_created_date D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat.php 369
+ERROR - 2018-01-05 18:39:21 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 279
+ERROR - 2018-01-05 18:39:21 --> Severity: Notice --> Undefined index: notifications_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 309
+ERROR - 2018-01-05 18:39:22 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 355
+ERROR - 2018-01-05 18:39:38 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 279
+ERROR - 2018-01-05 18:39:38 --> Severity: Notice --> Undefined index: notifications_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 309
+ERROR - 2018-01-05 18:39:39 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 355
+ERROR - 2018-01-05 18:43:04 --> Severity: Parsing Error --> syntax error, unexpected 'array_column' (T_STRING) D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 275
+ERROR - 2018-01-05 18:43:32 --> Severity: Notice --> Undefined index: notifications_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 311
+ERROR - 2018-01-05 18:44:43 --> Severity: Notice --> Undefined index: notifications_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 311
+ERROR - 2018-01-05 18:45:32 --> Severity: Notice --> Undefined index: notifications_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 311
+ERROR - 2018-01-05 18:48:00 --> Severity: Notice --> Undefined index: notifications_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 311
+ERROR - 2018-01-05 18:48:37 --> Severity: Parsing Error --> syntax error, unexpected '.' D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 311
+ERROR - 2018-01-05 18:50:19 --> Severity: Notice --> Undefined index: notifications_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 311

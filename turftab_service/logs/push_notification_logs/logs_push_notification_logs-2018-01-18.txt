@@ -1,0 +1,8 @@
+Date_time : 2018-01-18 16:03:45 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2018-01-18 16:04:45 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2018-01-18 16:04:49 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2018-01-18 16:07:08 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2018-01-18 16:08:22 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2018-01-18 16:08:50 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2018-01-18 16:52:08 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration
+Date_time : 2018-01-18 20:40:33 --> Status : FALSE --> Device Token : fhagfaffbfhjgafnafbgdsfshfbdf --> User ID : 5 -->  Error Message : InvalidRegistration

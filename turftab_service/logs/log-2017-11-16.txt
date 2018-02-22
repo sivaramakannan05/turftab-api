@@ -1,0 +1,89 @@
+ERROR - 2017-11-16 11:38:13 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 36
+ERROR - 2017-11-16 11:38:13 --> Severity: Notice --> Undefined index: unique_id D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 37
+ERROR - 2017-11-16 11:38:13 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 45
+ERROR - 2017-11-16 11:38:35 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 45
+ERROR - 2017-11-16 11:38:49 --> Severity: Notice --> Undefined index: chat_group_image D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 47
+ERROR - 2017-11-16 11:38:49 --> Severity: Notice --> Undefined property: Chat::$chat_model D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 48
+ERROR - 2017-11-16 11:38:49 --> Severity: Error --> Call to a member function user_group_creation() on a non-object D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 48
+ERROR - 2017-11-16 11:42:45 --> Severity: Notice --> Undefined property: Chat::$chat_model D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 68
+ERROR - 2017-11-16 11:42:45 --> Severity: Error --> Call to a member function user_group_creation() on a non-object D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 68
+ERROR - 2017-11-16 11:43:00 --> Severity: Notice --> Undefined property: Chat::$chat_model D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 68
+ERROR - 2017-11-16 11:43:00 --> Severity: Error --> Call to a member function user_group_creation() on a non-object D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 68
+ERROR - 2017-11-16 11:43:11 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:44:06 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:45:16 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:45:57 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:45:57 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:01 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:01 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:02 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:02 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:04 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:04 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:04 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:04 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:04 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:04 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:05 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:05 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:05 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:05 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:06 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:06 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:06 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:06 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:46:06 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:46:06 --> Query error: Unknown column 'group_members_list' in 'field list' - Invalid query: INSERT INTO `ct_chat_group` (`chat_group_name`, `chat_group_description`, `group_members_list`, `users_id`, `unique_id`, `api_action`, `chat_group_image`) VALUES ('treat', 'testttt', '1,2,3', '12', 'asfahfahfajhfsadf', 'add', '')
+ERROR - 2017-11-16 11:52:28 --> Severity: Compile Error --> Cannot redeclare Chat_model::user_group_creation() D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 36
+ERROR - 2017-11-16 11:52:41 --> Severity: Compile Error --> Cannot redeclare Chat_model::user_group_creation() D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 36
+ERROR - 2017-11-16 11:52:43 --> Severity: Compile Error --> Cannot redeclare Chat_model::user_group_creation() D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 36
+ERROR - 2017-11-16 11:52:43 --> Severity: Compile Error --> Cannot redeclare Chat_model::user_group_creation() D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 36
+ERROR - 2017-11-16 11:52:43 --> Severity: Compile Error --> Cannot redeclare Chat_model::user_group_creation() D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 36
+ERROR - 2017-11-16 11:52:55 --> Severity: Compile Error --> Cannot redeclare Chat_model::user_group_creation() D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 36
+ERROR - 2017-11-16 11:53:04 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 11:53:25 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:03:25 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:03:47 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:04:19 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:04:27 --> Severity: Notice --> Undefined variable: filepath D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 57
+ERROR - 2017-11-16 12:04:27 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:04:46 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:31:11 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:31:34 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:32:20 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:32:29 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 12:32:45 --> The upload path does not appear to be valid.
+ERROR - 2017-11-16 14:52:25 --> Severity: Parsing Error --> syntax error, unexpected 'var' (T_VAR) D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 60
+ERROR - 2017-11-16 15:37:18 --> Severity: Warning --> Illegal string offset 'chat_group_id' D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 82
+ERROR - 2017-11-16 15:37:18 --> Severity: Warning --> Illegal string offset 'users_id' D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 85
+ERROR - 2017-11-16 15:37:18 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_' at line 1 - Invalid query: SELECT (CASE WHEN gm.group_members_id!="" THEN "yes" WHEN g.chat_group_id!="" THEN "yes" ELSE "no")
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_member_id`="4" AND `gm`.`is_admin`=1
+WHERE (`g`.`chat_group_id` = "4")
+ERROR - 2017-11-16 15:37:29 --> Severity: Warning --> Illegal string offset 'chat_group_id' D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 82
+ERROR - 2017-11-16 15:37:29 --> Severity: Warning --> Illegal string offset 'users_id' D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 85
+ERROR - 2017-11-16 15:37:29 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_' at line 1 - Invalid query: SELECT (CASE WHEN gm.group_members_id!="" THEN "yes" WHEN g.chat_group_id!="" THEN "yes" ELSE "no")
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_member_id`="4" AND `gm`.`is_admin`=1
+WHERE (`g`.`chat_group_id` = "4")
+ERROR - 2017-11-16 15:38:27 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_' at line 1 - Invalid query: SELECT (CASE WHEN gm.group_members_id!="" THEN "yes" WHEN g.chat_group_id!="" THEN "yes" ELSE "no")
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_member_id`="4" AND `gm`.`is_admin`=1
+WHERE (`g`.`chat_group_id` = "18")
+ERROR - 2017-11-16 15:42:48 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as is_admin
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.' at line 1 - Invalid query: SELECT (CASE WHEN gm.group_members_id!="" THEN "yes" WHEN g.chat_group_id!="" THEN "yes" ELSE "no") as is_admin
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_member_id`="4" AND `gm`.`is_admin`=1
+WHERE (`g`.`chat_group_id` = "18")
+ERROR - 2017-11-16 15:44:57 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 83
+ERROR - 2017-11-16 15:45:04 --> Severity: Notice --> Undefined variable: date D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 83
+ERROR - 2017-11-16 16:11:30 --> Severity: Notice --> Undefined variable: group_creation D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 111
+ERROR - 2017-11-16 16:11:43 --> Severity: Notice --> Undefined variable: response D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 120
+ERROR - 2017-11-16 19:03:15 --> Severity: Error --> Call to undefined method Chat_model::user_conversation_list() D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 172

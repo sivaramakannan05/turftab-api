@@ -1,0 +1,16 @@
+ERROR - 2017-11-18 12:21:34 --> Severity: Notice --> Undefined property: Chat::$common D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 66
+ERROR - 2017-11-18 12:21:34 --> Severity: Error --> Call to a member function create_thumb() on a non-object D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 66
+ERROR - 2017-11-18 12:22:18 --> Severity: Notice --> Undefined index: group_members_list D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 80
+ERROR - 2017-11-18 12:22:18 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 81
+ERROR - 2017-11-18 12:22:23 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 81
+ERROR - 2017-11-18 12:22:54 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 81
+ERROR - 2017-11-18 12:23:09 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 81
+ERROR - 2017-11-18 12:23:09 --> Severity: Notice --> Undefined variable: group_members_data D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 85
+ERROR - 2017-11-18 15:42:22 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 'group_members_status'
+WHERE (`chat_group_id` = "8" AND `group_member_id` = ' at line 1 - Invalid query: UPDATE `ct_group_members` SET `left_by` = '5', 0 = 'group_members_status'
+WHERE (`chat_group_id` = "8" AND `group_member_id` = "6" AND `group_members_status` = 1)
+ERROR - 2017-11-18 15:57:24 --> Severity: Notice --> Undefined index: group_id D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 159
+ERROR - 2017-11-18 15:57:42 --> Severity: Notice --> Undefined index: pre_group_image D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 193
+ERROR - 2017-11-18 15:57:42 --> Severity: Notice --> Undefined index: pre_group_image D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 193
+ERROR - 2017-11-18 15:57:42 --> Severity: Warning --> unlink(./): Permission denied D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php 193
+ERROR - 2017-11-18 17:51:52 --> Severity: Parsing Error --> syntax error, unexpected ')' D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 168

@@ -1,0 +1,6 @@
+Date_time : 2018-01-19 13:29:51 --> Status : FALSE --> Device Token : fsdfsr3rdfsr3ddssasa4dfv --> User ID : 2 --> Event ID :  --> Error Message : InvalidRegistration
+Date_time : 2018-01-19 13:29:51 --> Status : FALSE --> Device Token : fjNNapXX8Sk:APA91bH8PNX1zxbOi6Soz5RW6Q2T5xVxmnaCJRKp4ESaNAy-d1AJYMLWxx8VxrN6hTI_LecKJ95LA1G5OhSeBwvSw0G2Fi50EwE6zQK56ZpQCoZMdq0930mgIUHj-Jl6mYwt7Sey5izu --> User ID : 1 --> Event ID :  --> Error Message : NotRegistered
+Date_time : 2018-01-19 13:38:23 --> Status : FALSE --> Device Token : fsdfsr3rdfsr3ddssasa4dfv --> User ID : 2 --> Event ID :  --> Error Message : InvalidRegistration
+Date_time : 2018-01-19 13:38:23 --> Status : FALSE --> Device Token : fjNNapXX8Sk:APA91bH8PNX1zxbOi6Soz5RW6Q2T5xVxmnaCJRKp4ESaNAy-d1AJYMLWxx8VxrN6hTI_LecKJ95LA1G5OhSeBwvSw0G2Fi50EwE6zQK56ZpQCoZMdq0930mgIUHj-Jl6mYwt7Sey5izu --> User ID : 1 --> Event ID :  --> Error Message : NotRegistered
+Date_time : 2018-01-19 15:00:03 --> Status : FALSE --> Device Token : fsdfsr3rdfsr3ddssasa4dfv --> User ID : 2 --> Event ID :  --> Error Message : InvalidRegistration
+Date_time : 2018-01-19 15:00:03 --> Status : FALSE --> Device Token : fjNNapXX8Sk:APA91bH8PNX1zxbOi6Soz5RW6Q2T5xVxmnaCJRKp4ESaNAy-d1AJYMLWxx8VxrN6hTI_LecKJ95LA1G5OhSeBwvSw0G2Fi50EwE6zQK56ZpQCoZMdq0930mgIUHj-Jl6mYwt7Sey5izu --> User ID : 1 --> Event ID :  --> Error Message : NotRegistered

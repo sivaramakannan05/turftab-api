@@ -1,0 +1,45 @@
+ERROR - 2017-11-21 18:45:53 --> Severity: Compile Error --> Cannot redeclare Chat_model::user_groupchat_media() D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 213
+ERROR - 2017-11-21 18:59:14 --> Severity: Warning --> Missing argument 2 for Chat_model::user_groupchat_media(), called in D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php on line 289 and defined D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 196
+ERROR - 2017-11-21 18:59:14 --> Query error: Unknown column 'gm.user_name' in 'field list' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`, `g`.`chat_group_maximum`, `g`.`chat_group_updated_date`, `g`.`chat_group_created_date`, `gm`.`group_member_id`, `u`.`user_fullname`, `gm`.`user_name`, `gm`.`user_profile_image`, `s`.`profile_image_show`, `gm`.`is_admin`, `gm`.`group_members_created_date`
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_members_status`=1
+LEFT JOIN `ct_users` `u` ON `gm`.`group_member_id`=`u`.`users_id`
+LEFT JOIN `ct_user_settings` `s` ON `gm`.`group_member_id`=`s`.`users_id`
+WHERE (`chat_group_status` = 1)
+ERROR - 2017-11-21 19:05:23 --> Severity: Warning --> Missing argument 2 for Chat_model::user_groupchat_media(), called in D:\xampp\htdocs\chat_turftab\turftab_service\controllers\Chat.php on line 289 and defined D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 196
+ERROR - 2017-11-21 19:05:23 --> Query error: Unknown column 'gm.user_name' in 'field list' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`, `g`.`chat_group_maximum`, `g`.`chat_group_updated_date`, `g`.`chat_group_created_date`, `gm`.`group_member_id`, `u`.`user_fullname`, `gm`.`user_name`, `gm`.`user_profile_image`, `s`.`profile_image_show`, `gm`.`is_admin`, `gm`.`group_members_created_date`
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_members_status`=1
+LEFT JOIN `ct_users` `u` ON `gm`.`group_member_id`=`u`.`users_id`
+LEFT JOIN `ct_user_settings` `s` ON `gm`.`group_member_id`=`s`.`users_id`
+WHERE (`g`.`chat_group_status` = 1 AND g.chat_group_id)
+ERROR - 2017-11-21 19:05:56 --> Query error: Unknown column 'gm.user_name' in 'field list' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`, `g`.`chat_group_maximum`, `g`.`chat_group_updated_date`, `g`.`chat_group_created_date`, `gm`.`group_member_id`, `u`.`user_fullname`, `gm`.`user_name`, `gm`.`user_profile_image`, `s`.`profile_image_show`, `gm`.`is_admin`, `gm`.`group_members_created_date`
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_members_status`=1
+LEFT JOIN `ct_users` `u` ON `gm`.`group_member_id`=`u`.`users_id`
+LEFT JOIN `ct_user_settings` `s` ON `gm`.`group_member_id`=`s`.`users_id`
+WHERE (`g`.`chat_group_status` = 1 AND `g`.`chat_group_id` = "8")
+ERROR - 2017-11-21 19:06:13 --> Query error: Unknown column 'gm.user_profile_image' in 'field list' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`, `g`.`chat_group_maximum`, `g`.`chat_group_updated_date`, `g`.`chat_group_created_date`, `gm`.`group_member_id`, `u`.`user_fullname`, `u`.`user_name`, `gm`.`user_profile_image`, `s`.`profile_image_show`, `gm`.`is_admin`, `gm`.`group_members_created_date`
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_members_status`=1
+LEFT JOIN `ct_users` `u` ON `gm`.`group_member_id`=`u`.`users_id`
+LEFT JOIN `ct_user_settings` `s` ON `gm`.`group_member_id`=`s`.`users_id`
+WHERE (`g`.`chat_group_status` = 1 AND `g`.`chat_group_id` = "8")
+ERROR - 2017-11-21 19:06:19 --> Query error: Unknown column 'gm.user_profile_image' in 'field list' - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`, `g`.`chat_group_maximum`, `g`.`chat_group_updated_date`, `g`.`chat_group_created_date`, `gm`.`group_member_id`, `u`.`user_fullname`, `u`.`user_name`, `gm`.`user_profile_image`, `s`.`profile_image_show`, `gm`.`is_admin`, `gm`.`group_members_created_date`
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_members_status`=1
+LEFT JOIN `ct_users` `u` ON `gm`.`group_member_id`=`u`.`users_id`
+LEFT JOIN `ct_user_settings` `s` ON `gm`.`group_member_id`=`s`.`users_id`
+WHERE (`g`.`chat_group_status` = 1 AND `g`.`chat_group_id` = "8")
+ERROR - 2017-11-21 19:06:47 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`user_profile_image`, `s`.`profile_image_show`, `gm`.`is_admin`, `gm`.`group_me' at line 1 - Invalid query: SELECT `g`.`chat_group_id`, `g`.`chat_group_name`, `g`.`chat_group_description`, `g`.`chat_group_image`, `g`.`chat_group_maximum`, `g`.`chat_group_updated_date`, `g`.`chat_group_created_date`, `gm`.`group_member_id`, `u`.`user_fullname`, `u`.`user_name`, `u`..`user_profile_image`, `s`.`profile_image_show`, `gm`.`is_admin`, `gm`.`group_members_created_date`
+FROM `ct_chat_group` `g`
+LEFT JOIN `ct_group_members` `gm` ON `g`.`chat_group_id`=`gm`.`chat_group_id` AND `gm`.`group_members_status`=1
+LEFT JOIN `ct_users` `u` ON `gm`.`group_member_id`=`u`.`users_id`
+LEFT JOIN `ct_user_settings` `s` ON `gm`.`group_member_id`=`s`.`users_id`
+WHERE (`g`.`chat_group_status` = 1 AND `g`.`chat_group_id` = "8")
+ERROR - 2017-11-21 19:07:46 --> Severity: Error --> Call to undefined method CI_DB_mysqli_result::order_by() D:\xampp\htdocs\chat_turftab\turftab_service\models\Chat_model.php 207
+ERROR - 2017-11-21 19:41:38 --> Query error: Unknown column 'gm.group_members_created_date' in 'order clause' - Invalid query: SELECT *
+FROM `ct_group_conversation` `gc`
+LEFT JOIN `ct_users` `u` ON `gc`.`conversation_from_id`=`u`.`users_id`
+WHERE (`gc`.`group_conversation_status` = 1 AND `gc`.`conversation_group_id` = "8" AND (`gc`.`content_type` = "image" OR gc.content_type="video"))
+ORDER BY `gm`.`group_members_created_date` desc

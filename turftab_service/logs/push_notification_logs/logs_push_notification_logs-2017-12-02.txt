@@ -1,0 +1,3 @@
+Date_time : 2017-12-02 17:03:40 --> Status : FALSE --> Device Token : fsdfsrdcsdccccccsddsfdfv --> User ID : 4 -->  Error Message : InvalidRegistration
+Date_time : 2017-12-02 17:07:58 --> Status : FALSE --> Device Token : fsdfsrdcsdccccccsddsfdfv --> User ID : 4 -->  Error Message : InvalidRegistration
+Date_time : 2017-12-02 18:04:44 --> Status : FALSE --> Device Token :  --> User ID : 1 -->  Error Message : MissingRegistration

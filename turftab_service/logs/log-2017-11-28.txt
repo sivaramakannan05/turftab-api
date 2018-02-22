@@ -1,0 +1,16 @@
+ERROR - 2017-11-28 12:56:28 --> Query error: Unknown column 'video_url' in 'field list' - Invalid query: INSERT INTO `ct_albums` (`album_type`, `albums_path`, `albums_status`, `file_type`, `users_id`, `video_url`) VALUES (1,'uploads/album/151185398839_thumb.png',1,2,'4','uploads/album/151185398839.mp4')
+ERROR - 2017-11-28 18:29:29 --> Severity: Notice --> Undefined property: Review::$event_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 30
+ERROR - 2017-11-28 18:29:29 --> Severity: Error --> Call to a member function unique_id_verification() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 30
+ERROR - 2017-11-28 18:39:16 --> Severity: Notice --> Undefined property: Review::$profile_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 57
+ERROR - 2017-11-28 18:39:16 --> Severity: Error --> Call to a member function get_users_device_details() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 57
+ERROR - 2017-11-28 18:39:26 --> Severity: Notice --> Undefined property: Review::$profile_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 57
+ERROR - 2017-11-28 18:39:26 --> Severity: Error --> Call to a member function get_users_device_details() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 57
+ERROR - 2017-11-28 19:41:22 --> Severity: Notice --> Undefined index: comments D:\xampp\htdocs\turf_tab\turftab_service\controllers\Review.php 135
+ERROR - 2017-11-28 19:41:22 --> Query error: Column 'comments' cannot be null - Invalid query: INSERT INTO `ct_replies` (`reviews_id`, `comments`, `replies_status`) VALUES ('9', NULL, 1)
+ERROR - 2017-11-28 19:41:34 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Review_model.php 99
+ERROR - 2017-11-28 19:41:34 --> Query error: Column 'notifications_to_id' cannot be null - Invalid query: INSERT INTO `ct_notifications` (`notifications_from_id`, `notifications_to_id`, `notifications_msg`, `notifications_type`, `notifications_status`) VALUES ('4', NULL, 'replied to your review', 'event_reply', 1)
+ERROR - 2017-11-28 20:06:20 --> Query error: Unknown column 'users_id' in 'where clause' - Invalid query: SELECT *
+FROM `ct_reply`
+WHERE `reviews_id` = '9'
+AND `users_id` = '4'
+AND `reviews_status` = 1

@@ -1,0 +1,30 @@
+ERROR - 2017-11-08 12:09:38 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ D:\xampp\htdocs\turf_tab\turftab_system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2017-11-08 12:09:38 --> Unable to connect to the database
+ERROR - 2017-11-08 12:46:01 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 329
+ERROR - 2017-11-08 12:48:58 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 332
+ERROR - 2017-11-08 13:07:59 --> Query error: Unknown column 'loggedin_user_name' in 'field list' - Invalid query: UPDATE `ct_events` SET `users_id` = '4', `event_name` = 'event_1', `event_startdate` = '2017-11-10 12:00:20', `event_enddate` = '2017-11-20 12:00:20', `event_address` = 'Teynampet, Chennai, Tamil Nadu, India', `event_lattitude` = '13.0467308', `event_longitude` = '80.2384672', `event_details` = 'You can enjoy very well.', `event_category` = 'music', `loggedin_user_name` = 'siva4041', `event_updated_date` = '2017-11-08 13:07:59'
+WHERE `events_id` = '13'
+ERROR - 2017-11-08 13:09:30 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 180
+ERROR - 2017-11-08 13:43:02 --> Severity: Notice --> Undefined index: event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 198
+ERROR - 2017-11-08 13:43:02 --> Severity: Notice --> Undefined index: insert_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 210
+ERROR - 2017-11-08 13:43:02 --> Severity: Notice --> Undefined index: insert_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 227
+ERROR - 2017-11-08 13:43:10 --> Severity: Notice --> Undefined index: event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 198
+ERROR - 2017-11-08 13:43:10 --> Severity: Notice --> Undefined index: insert_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 210
+ERROR - 2017-11-08 13:43:10 --> Severity: Notice --> Undefined index: insert_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 227
+ERROR - 2017-11-08 13:43:11 --> Severity: Warning --> explode() expects parameter 2 to be string, array given D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 237
+ERROR - 2017-11-08 13:44:05 --> Severity: Notice --> Undefined index: insert_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 227
+ERROR - 2017-11-08 13:44:42 --> Severity: Notice --> Undefined index: insert_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 227
+ERROR - 2017-11-08 13:48:28 --> Severity: Warning --> explode() expects parameter 2 to be string, array given D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 238
+ERROR - 2017-11-08 13:49:12 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 332
+ERROR - 2017-11-08 13:53:08 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 334
+ERROR - 2017-11-08 13:55:53 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 334
+ERROR - 2017-11-08 15:06:52 --> Query error: Cannot add or update a child row: a foreign key constraint fails (`turf_tab`.`ct_event_invitation`, CONSTRAINT `ct_event_invitation_ibfk_1` FOREIGN KEY (`events_id`) REFERENCES `ct_events` (`events_id`) ON DELETE CASCADE ON UPDATE CASCADE) - Invalid query: INSERT INTO `ct_event_invitation` (`events_id`, `users_id`, `event_invitation_status`) VALUES ('21', '4', 1)
+ERROR - 2017-11-08 15:07:12 --> Severity: Notice --> Undefined property: Event::$profile_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 346
+ERROR - 2017-11-08 15:07:12 --> Severity: Error --> Call to a member function get_users_device_details() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 346
+ERROR - 2017-11-08 15:09:14 --> Severity: Notice --> Undefined index: android D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 497
+ERROR - 2017-11-08 15:09:59 --> Severity: Notice --> Undefined index: friend_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 365
+ERROR - 2017-11-08 15:42:47 --> Severity: Notice --> Undefined variable: event_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 460
+ERROR - 2017-11-08 19:57:07 --> Severity: Notice --> Undefined index: user_mobile D:\xampp\htdocs\turf_tab\turftab_service\controllers\User.php 314
+ERROR - 2017-11-08 19:57:18 --> Severity: Notice --> Undefined index: user_mobile D:\xampp\htdocs\turf_tab\turftab_service\controllers\User.php 314
+ERROR - 2017-11-08 19:57:46 --> Severity: Notice --> Undefined index: user_mobile D:\xampp\htdocs\turf_tab\turftab_service\controllers\User.php 314

@@ -1,0 +1,4 @@
+ERROR - 2018-02-07 16:33:01 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\views\tictactoe.php 6
+ERROR - 2018-02-07 16:33:01 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\views\tictactoe.php 15
+ERROR - 2018-02-07 16:33:08 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\views\tictactoe.php 6
+ERROR - 2018-02-07 16:33:08 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\views\tictactoe.php 15

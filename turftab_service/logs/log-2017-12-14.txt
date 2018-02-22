@@ -1,0 +1,7 @@
+ERROR - 2017-12-14 13:34:19 --> Severity: Notice --> Undefined variable: insert D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 60
+ERROR - 2017-12-14 13:39:36 --> Severity: Notice --> Undefined variable: insert D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 60
+ERROR - 2017-12-14 13:40:11 --> Severity: Notice --> Undefined property: Game::$profile_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Game.php 51
+ERROR - 2017-12-14 13:40:11 --> Severity: Error --> Call to a member function save_notifications() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Game.php 51
+ERROR - 2017-12-14 13:40:21 --> Severity: Notice --> Undefined property: Game::$common D:\xampp\htdocs\turf_tab\turftab_service\controllers\Game.php 67
+ERROR - 2017-12-14 13:40:21 --> Severity: Error --> Call to a member function single_push_notification_service() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Game.php 67
+ERROR - 2017-12-14 14:06:40 --> Severity: Notice --> Undefined variable: dat D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 94

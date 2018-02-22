@@ -1,0 +1,7 @@
+Date_time : 2017-11-28 18:39:41 --> Status : FALSE --> Device Token : fsdfsrdcsdccccccsddsfdfv --> User ID : 4 -->  Error Message : InvalidRegistration
+Date_time : 2017-11-28 18:50:16 --> Status : FALSE --> Device Token : fsdfsrdcsdccccccsddsfdfv --> User ID : 4 -->  Error Message : InvalidRegistration
+Date_time : 2017-11-28 18:50:28 --> Status : FALSE --> Device Token : fsdfsrdcsdccccccsddsfdfv --> User ID : 4 -->  Error Message : InvalidRegistration
+Date_time : 2017-11-28 18:50:43 --> Status : FALSE --> Device Token : fsdfsrdcsdccccccsddsfdfv --> User ID : 4 -->  Error Message : InvalidRegistration
+Date_time : 2017-11-28 19:42:09 --> Status : FALSE --> Device Token :  --> User ID : 1 -->  Error Message : MissingRegistration
+Date_time : 2017-11-28 19:45:55 --> Status : FALSE --> Device Token :  --> User ID : 1 -->  Error Message : MissingRegistration
+Date_time : 2017-11-28 19:46:22 --> Status : FALSE --> Device Token :  --> User ID : 1 -->  Error Message : MissingRegistration

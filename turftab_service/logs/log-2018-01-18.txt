@@ -1,0 +1,11 @@
+ERROR - 2018-01-18 16:03:25 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\turf_tab\turftab_service\controllers\Game.php 160
+ERROR - 2018-01-18 16:03:29 --> Severity: Notice --> Undefined index: api_action D:\xampp\htdocs\turf_tab\turftab_service\controllers\Game.php 160
+ERROR - 2018-01-18 16:03:44 --> Severity: Notice --> Undefined index: from_users_id D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 108
+ERROR - 2018-01-18 16:03:44 --> Severity: Notice --> Undefined index: to_users_id D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 108
+ERROR - 2018-01-18 20:39:33 --> Severity: Notice --> Undefined index: tictactoe_question D:\xampp\htdocs\turf_tab\turftab_service\controllers\Game.php 162
+ERROR - 2018-01-18 20:39:33 --> Severity: Notice --> Undefined index: tictactoe_answer D:\xampp\htdocs\turf_tab\turftab_service\controllers\Game.php 162
+ERROR - 2018-01-18 20:39:33 --> Query error: Column 'tictactoe_question' cannot be null - Invalid query: INSERT INTO `ct_game_tictactoe` (`sender_id`, `receiver_id`, `tictactoe_question`, `tictactoe_answer`, `tictactoe_status`, `tictactoe_updated_date`) VALUES ('4', '5', NULL, NULL, 1, '2018-01-18 20:39:33')
+ERROR - 2018-01-18 20:39:44 --> Severity: Notice --> Undefined variable: blocked_count D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 144
+ERROR - 2018-01-18 20:39:44 --> Severity: Notice --> Undefined index: receiver_id D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 146
+ERROR - 2018-01-18 20:39:44 --> Severity: Notice --> Undefined variable: hangman_count D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 148
+ERROR - 2018-01-18 20:40:02 --> Severity: Notice --> Undefined index: receiver_id D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 146

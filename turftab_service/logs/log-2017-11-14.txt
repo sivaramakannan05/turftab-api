@@ -1,0 +1,67 @@
+ERROR - 2017-11-14 10:52:27 --> Severity: Warning --> Illegal string offset 'like_status' D:\xampp\htdocs\turf_tab\turftab_service\models\Turfmate_model.php 276
+ERROR - 2017-11-14 11:04:49 --> Severity: Notice --> Undefined property: Turfmate::$profile_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Turfmate.php 411
+ERROR - 2017-11-14 11:04:49 --> Severity: Error --> Call to a member function save_notifications() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Turfmate.php 411
+ERROR - 2017-11-14 12:52:03 --> Severity: error --> Exception: Unable to locate the model you have specified: Push_notification_model D:\xampp\htdocs\turf_tab\turftab_system\core\Loader.php 344
+ERROR - 2017-11-14 12:52:15 --> Severity: Notice --> Undefined property: Notification::$profile_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Notification.php 35
+ERROR - 2017-11-14 12:52:15 --> Severity: Error --> Call to a member function unique_id_verification() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Notification.php 35
+ERROR - 2017-11-14 12:52:47 --> Query error: Column 'notifications_id' in field list is ambiguous - Invalid query: SELECT `notifications_id`, `notifications_from_id` as `from_user_id`, `notifications_to_id` as `to_user_id`, `notifications_event_id` as `event_id`, `notifications_msg`, `notifications_type`, `notifications_status`, `notifications_created_date`
+FROM (`ct_notifications` `n`, `ct_notifications`)
+LEFT JOIN `ct_users` `u` ON `n`.`notifications_from_id`=`u`.`users_id`
+LEFT JOIN `ct_events` `e` ON `n`.`notifications_event_id`=`e`.`events_id`
+WHERE `notifications_to_id` = '4'
+ORDER BY `notifications_id` desc
+ERROR - 2017-11-14 14:51:05 --> Severity: Warning --> Illegal string offset 'notification_id' D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 39
+ERROR - 2017-11-14 14:51:13 --> Severity: Warning --> Illegal string offset 'notification_id' D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 39
+ERROR - 2017-11-14 14:51:40 --> Severity: Warning --> Illegal string offset 'users_id' D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 42
+ERROR - 2017-11-14 14:52:31 --> Severity: Warning --> Missing argument 2 for Notification_model::user_notifications_update(), called in D:\xampp\htdocs\turf_tab\turftab_service\controllers\Notification.php on line 54 and defined D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 36
+ERROR - 2017-11-14 14:52:31 --> Severity: Notice --> Undefined variable: type D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 38
+ERROR - 2017-11-14 14:52:31 --> Severity: Notice --> Undefined variable: type D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 41
+ERROR - 2017-11-14 14:52:31 --> Severity: Warning --> Illegal string offset 'notification_id' D:\xampp\htdocs\turf_tab\turftab_service\models\Notification_model.php 45
+ERROR - 2017-11-14 16:18:26 --> Severity: Parsing Error --> syntax error, unexpected '".png"' (T_CONSTANT_ENCAPSED_STRING) D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 209
+ERROR - 2017-11-14 16:18:48 --> Severity: Parsing Error --> syntax error, unexpected '".png"' (T_CONSTANT_ENCAPSED_STRING) D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 209
+ERROR - 2017-11-14 16:18:57 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 164
+ERROR - 2017-11-14 16:18:57 --> Severity: Notice --> Undefined index: unique_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 165
+ERROR - 2017-11-14 16:19:24 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 164
+ERROR - 2017-11-14 16:19:24 --> Severity: Notice --> Undefined index: unique_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 165
+ERROR - 2017-11-14 16:19:44 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 164
+ERROR - 2017-11-14 16:19:44 --> Severity: Notice --> Undefined index: unique_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 165
+ERROR - 2017-11-14 16:20:28 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 164
+ERROR - 2017-11-14 16:20:28 --> Severity: Notice --> Undefined index: unique_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 165
+ERROR - 2017-11-14 16:20:47 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 164
+ERROR - 2017-11-14 16:20:47 --> Severity: Notice --> Undefined index: unique_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 165
+ERROR - 2017-11-14 16:21:13 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 163
+ERROR - 2017-11-14 16:21:23 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 163
+ERROR - 2017-11-14 16:21:38 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 166
+ERROR - 2017-11-14 16:22:33 --> Severity: Parsing Error --> syntax error, unexpected '".png"' (T_CONSTANT_ENCAPSED_STRING) D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 209
+ERROR - 2017-11-14 16:51:39 --> Severity: Notice --> Undefined index: event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 176
+ERROR - 2017-11-14 16:51:39 --> Severity: Warning --> Missing argument 2 for Event_model::get_users_device_details(), called in D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php on line 246 and defined D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 20
+ERROR - 2017-11-14 16:51:39 --> Severity: Notice --> Undefined variable: type D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 24
+ERROR - 2017-11-14 16:51:39 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 270
+ERROR - 2017-11-14 16:51:39 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 270
+ERROR - 2017-11-14 16:51:39 --> Severity: Notice --> Undefined index: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 258
+ERROR - 2017-11-14 16:51:39 --> Query error: Unknown column 'notifications_title' in 'field list' - Invalid query: INSERT INTO `ct_notifications` (`notifications_event_id`, `notifications_from_id`, `notifications_status`, `notifications_title`, `notifications_to_id`, `notifications_type`) VALUES (NULL,'4',1,'You have a new notification',NULL,'event_update')
+ERROR - 2017-11-14 16:51:39 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\turf_tab\turftab_system\core\Exceptions.php:271) D:\xampp\htdocs\turf_tab\turftab_system\core\Common.php 570
+ERROR - 2017-11-14 17:00:02 --> Severity: Notice --> Undefined property: Event::$profile_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 94
+ERROR - 2017-11-14 17:00:02 --> Severity: Error --> Call to a member function save_notifications() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 94
+ERROR - 2017-11-14 17:02:14 --> Severity: Notice --> Undefined property: Event::$profile_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 96
+ERROR - 2017-11-14 17:02:14 --> Severity: Error --> Call to a member function save_notifications_batch() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 96
+ERROR - 2017-11-14 17:07:18 --> Severity: Notice --> Undefined variable: users_id D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 488
+ERROR - 2017-11-14 17:31:37 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_system\database\DB_query_builder.php 1539
+ERROR - 2017-11-14 17:31:37 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Array' at line 1 - Invalid query: INSERT INTO `ct_notifications` () VALUES ('4',' create a new event',1,'1','event_create'), ('4',' create a new event',1,'2','event_create'), ('4',' create a new event',1,'6','event_create'), Array
+ERROR - 2017-11-14 18:07:12 --> Severity: Notice --> Undefined variable: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 288
+ERROR - 2017-11-14 18:52:12 --> Severity: Notice --> Undefined variable: users_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 308
+ERROR - 2017-11-14 19:22:52 --> Severity: Warning --> Missing argument 2 for Event_model::get_users_device_details(), called in D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php on line 188 and defined D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 20
+ERROR - 2017-11-14 19:22:52 --> Severity: Notice --> Undefined variable: type D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 24
+ERROR - 2017-11-14 19:22:52 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_system\database\DB_query_builder.php 1589
+ERROR - 2017-11-14 19:22:52 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_system\database\DB_query_builder.php 1589
+ERROR - 2017-11-14 19:22:52 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (Array), (Array)' at line 1 - Invalid query: INSERT INTO `ct_notifications` (0) VALUES (Array), (Array)
+ERROR - 2017-11-14 19:24:27 --> Severity: Warning --> Missing argument 2 for Event_model::get_users_device_details(), called in D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php on line 182 and defined D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 20
+ERROR - 2017-11-14 19:24:27 --> Severity: Notice --> Undefined variable: type D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 24
+ERROR - 2017-11-14 19:24:27 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_system\database\DB_query_builder.php 1589
+ERROR - 2017-11-14 19:24:27 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\turf_tab\turftab_system\database\DB_query_builder.php 1589
+ERROR - 2017-11-14 19:24:27 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (Array), (Array)' at line 1 - Invalid query: INSERT INTO `ct_notifications` (0) VALUES (Array), (Array)
+ERROR - 2017-11-14 19:34:49 --> Severity: Parsing Error --> syntax error, unexpected 'public' (T_PUBLIC) D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 563
+ERROR - 2017-11-14 19:34:58 --> Severity: Notice --> Undefined variable: message D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 186
+ERROR - 2017-11-14 19:34:58 --> Severity: Notice --> Undefined variable: message D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 186
+ERROR - 2017-11-14 19:44:16 --> Severity: Warning --> explode() expects parameter 2 to be string, array given D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 227
+ERROR - 2017-11-14 19:44:16 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 229

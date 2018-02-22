@@ -1,0 +1,10 @@
+Date_time : 2017-11-14 11:05:18 --> Status : FALSE --> Device Token : fhagfaffbfhjgfdsfdssfshfbdf --> User ID : 4 -->  Error Message : InvalidRegistration
+Date_time : 2017-11-14 18:52:12 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID :  --> Event ID : 38 --> Error Message : InvalidRegistration
+Date_time : 2017-11-14 18:53:26 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID : 1 --> Event ID : 39 --> Error Message : InvalidRegistration
+Date_time : 2017-11-14 18:53:41 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID : 1 --> Event ID : 40 --> Error Message : InvalidRegistration
+Date_time : 2017-11-14 19:40:16 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID : 1 --> Event ID : 13 --> Error Message : InvalidRegistration
+Date_time : 2017-11-14 19:40:31 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID : 1 --> Event ID : 13 --> Error Message : InvalidRegistration
+Date_time : 2017-11-14 19:40:53 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID : 1 --> Event ID : 13 --> Error Message : InvalidRegistration
+Date_time : 2017-11-14 19:44:14 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID : 1 --> Event ID : 13 --> Error Message : InvalidRegistration
+Date_time : 2017-11-14 19:48:41 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID : 1 --> Event ID : 13 --> Error Message : InvalidRegistration
+Date_time : 2017-11-14 19:50:10 --> Status : FALSE --> Device Token : fsdfsr3rdfdasd2tx42423vcf34dfv --> User ID : 1 --> Event ID : 13 --> Error Message : InvalidRegistration

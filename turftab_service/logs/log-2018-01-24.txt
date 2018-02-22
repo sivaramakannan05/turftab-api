@@ -1,0 +1,13 @@
+ERROR - 2018-01-24 16:58:00 --> Severity: Parsing Error --> syntax error, unexpected '"added successfully."' (T_CONSTANT_ENCAPSED_STRING), expecting ')' D:\xampp\htdocs\turf_tab\turftab_service\controllers\Referral.php 110
+ERROR - 2018-01-24 17:35:59 --> Severity: Error --> Call to undefined method CI_DB_mysqli_driver::selet() D:\xampp\htdocs\turf_tab\turftab_service\models\Referral_model.php 75
+ERROR - 2018-01-24 19:22:56 --> Severity: Notice --> Undefined index: recent_word D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 183
+ERROR - 2018-01-24 19:22:56 --> Query error: Column 'recent_word' cannot be null - Invalid query: INSERT INTO `ct_hangman_notifications` (`game_hangman_id`, `original_word`, `recent_word`) VALUES ('1', 'smile', NULL)
+ERROR - 2018-01-24 19:23:13 --> Severity: Notice --> Undefined index: game_tictactoe_id D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 186
+ERROR - 2018-01-24 19:23:13 --> Query error: Unknown column 'game_tictactoe_id' in 'where clause' - Invalid query: UPDATE `ct_hangman_notifications` SET `recent_word` = 'siv'
+WHERE `game_tictactoe_id` IS NULL
+ERROR - 2018-01-24 19:23:15 --> Severity: Notice --> Undefined index: game_tictactoe_id D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 186
+ERROR - 2018-01-24 19:23:15 --> Query error: Unknown column 'game_tictactoe_id' in 'where clause' - Invalid query: UPDATE `ct_hangman_notifications` SET `recent_word` = 'siv'
+WHERE `game_tictactoe_id` IS NULL
+ERROR - 2018-01-24 19:23:45 --> Severity: Notice --> Undefined index: game_tictactoe_id D:\xampp\htdocs\turf_tab\turftab_service\models\Game_model.php 186
+ERROR - 2018-01-24 19:23:45 --> Query error: Unknown column 'game_tictactoe_id' in 'where clause' - Invalid query: UPDATE `ct_hangman_notifications` SET `recent_word` = 'siv'
+WHERE `game_tictactoe_id` IS NULL

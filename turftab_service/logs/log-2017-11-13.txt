@@ -1,0 +1,48 @@
+ERROR - 2017-11-13 15:32:26 --> Query error: Not unique table/alias: 'u' - Invalid query: select *
+                        from (
+                            select tmu.users_id as match_user_id,u.user_fullname,IFNULL(u.user_name,'') as user_name,IFNULL(u.user_email,'') as user_email,IFNULL(u.user_mobile,'') as user_mobile,IFNULL(u.user_gender,'') as user_gender,IFNULL(u.user_dob,'') as user_dob,IFNULL(u.user_profile_image,'') as user_profile_image,IFNULL(u.user_turfmate_image,'') as user_turfmate_image,IFNULL(u.user_description,'') as user_description,(SUM(CASE WHEN tm.answer_id=tmu.answer_id THEN 1 ELSE 0 END) / 7) * 100 as match_precent from ct_turfmates_matching as tm,ct_turfmates_matching as tmu
+                            left join ct_users as u on tmu.users_id=u.users_id
+                            left join ct_users as u on tmu.users_id=u.users_id
+                            where tm.question_id=tmu.question_id AND tm.users_id=4 AND tmu.users_id!=4 
+                            group by match_user_id 
+                            having match_user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_turfmate_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+                        ) as x
+                        left join (
+                            select a.albums_id as album_id,a.users_id as user_id,a.albums_path
+                            from ct_albums as a where a.album_type=2 AND a.albums_status=1
+                        ) as y on x.match_user_id = y.user_id order by match_precent desc
+                    
+ERROR - 2017-11-13 15:32:26 --> Query error: Not unique table/alias: 'u' - Invalid query: select *
+                        from (
+                            select tmu.users_id as match_user_id,u.user_fullname,IFNULL(u.user_name,'') as user_name,IFNULL(u.user_email,'') as user_email,IFNULL(u.user_mobile,'') as user_mobile,IFNULL(u.user_gender,'') as user_gender,IFNULL(u.user_dob,'') as user_dob,IFNULL(u.user_profile_image,'') as user_profile_image,IFNULL(u.user_turfmate_image,'') as user_turfmate_image,IFNULL(u.user_description,'') as user_description,(SUM(CASE WHEN tm.answer_id=tmu.answer_id THEN 1 ELSE 0 END) / 7) * 100 as match_precent from ct_turfmates_matching as tm,ct_turfmates_matching as tmu
+                            left join ct_users as u on tmu.users_id=u.users_id
+                            left join ct_users as u on tmu.users_id=u.users_id
+                            where tm.question_id=tmu.question_id AND tm.users_id=4 AND tmu.users_id!=4 
+                            group by match_user_id 
+                            having match_user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_turfmate_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+                        ) as x
+                        left join (
+                            select a.albums_id as album_id,a.users_id as user_id,a.albums_path
+                            from ct_albums as a where a.album_type=2 AND a.albums_status=1
+                        ) as y on x.match_user_id = y.user_id order by match_precent desc
+                    
+ERROR - 2017-11-13 15:41:32 --> Query error: Not unique table/alias: 'u' - Invalid query: select *
+                        from (
+                            select tmu.users_id as match_user_id,u.user_fullname,IFNULL(u.user_name,'') as user_name,IFNULL(u.user_email,'') as user_email,IFNULL(u.user_mobile,'') as user_mobile,IFNULL(u.user_gender,'') as user_gender,IFNULL(u.user_dob,'') as user_dob,IFNULL(u.user_profile_image,'') as user_profile_image,IFNULL(u.user_turfmate_image,'') as user_turfmate_image,IFNULL(u.user_description,'') as user_description,(SUM(CASE WHEN tm.answer_id=tmu.answer_id THEN 1 ELSE 0 END) / 7) * 100 as match_precent from ct_turfmates_matching as tm,ct_turfmates_matching as tmu
+                            left join ct_users as u on tmu.users_id=u.users_id
+                            left join ct_users as u on tmu.users_id=u.users_id
+                            where tm.question_id=tmu.question_id AND tm.users_id=4 AND tmu.users_id!=4 
+                            group by match_user_id 
+                            having match_user_id NOT IN (select (CASE WHEN blocklist_from_id!=4 THEN blocklist_from_id ELSE blocklist_to_id END) as block_ids from ct_turfmate_blocklist where blocklist_from_id = 4 OR blocklist_to_id = 4)
+                        ) as x
+                        left join (
+                            select a.albums_id as album_id,a.users_id as user_id,a.albums_path
+                            from ct_albums as a where a.album_type=2 AND a.albums_status=1
+                        ) as y on x.match_user_id = y.user_id order by match_precent desc
+                    
+ERROR - 2017-11-13 18:45:29 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHEN sender_id!=4 THEN sender_id ELSE receiver_id END) as user_id
+FROM `ct_turfm' at line 1 - Invalid query: SELECT CASE(WHEN sender_id!=4 THEN sender_id ELSE receiver_id END) as user_id
+FROM `ct_turfmates`
+WHERE ((sender_id = "4" AND `like_status` != 2 AND turfmate_updated_date >= (CURDATE() - INTERVAL 30 DAY)) OR ((sender_id = "4" OR `receiver_id` = "4") AND like_status=2))
+ERROR - 2017-11-13 20:32:21 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Turfmate_model.php 221
+ERROR - 2017-11-13 20:32:21 --> Severity: Notice --> Undefined variable: data D:\xampp\htdocs\turf_tab\turftab_service\models\Turfmate_model.php 231

@@ -1,0 +1,125 @@
+*{margin:0;padding: 0;}
+body{background:#5D5D5D;}
+header#hd{background: #2A2A2A; width: 100%; height: 33px; text-align: center; padding-top: 18px; font:20px arial; color: #fff; margin-bottom: 30px;}
+b.b1{color: #3D9150;}
+div#game_status{background: #2A2A2A; width: 100%; height: 33px; text-align: center; padding-top: 18px; font:20px arial; color: #fff; margin-bottom: 30px;}
+b.b2{color: #FF9900;}
+section#score {width: 311px; height: 53px; background:#999999; border-bottom: none; 
+margin: 0px auto; border-radius: 2px; text-align: center; font:30px 'american', verdana, arial; color: #fff; padding-top: 13px;}
+section#game{width: 850px; height: 521px; background: #4B4B4B; margin: -30px auto; border-radius: 15px; border-radius: 5px;}
+section#game #players {height: 42px; background: #999999; padding: 29px 0px 0px 15px; font: 25px 'american', verdana, arial; color: #fff;}
+section#game #players #player1{width:300px; float: left; margin-left: 35px;}
+section#game #players #player2{width:260px; float: right;  padding-left: 40px;}
+section#game #players #middle {width:120px; height: 58px; margin: -13px auto; padding:4px 20px 0px 20px;}
+section#game #players #middle #p1,#p2 {width: 40px; font-size: 50px; margin-top: -8px;}
+section#game #players #middle #p1 {float: left;}
+section#game #players #middle #p2 {float:right;}
+section#game #players #middle #line {width: 2px; height: 55px; margin: -5px auto; background: #5D5D5D;}
+section#game #box {width:500px; height: 430px; margin: 15px auto;}
+section#game #box .boxs {width:110px; height: 90px; background: #E8E8E8; border-radius: 5px; float: left; margin:0 85px 40px 0; 
+text-align: center; font-size: 90px; font-family: 'american', arial, verdana; padding-top: 20px;}
+section#game #box .boxs:hover{background: #CCCCCC; cursor: pointer;}
+section#game #box .marginr0 {margin-right: 0;}
+section#game #box .marginb0 {margin-bottom: 0;}
+.teste{background: #000;}
+.mes{width:800px; margin:0 auto; height:32px; background:#CACA00; border: 2px solid #919100; border-radius: 3px; 
+      text-align: center; font: bold 18px arial; color: #fff; padding-top: 13px; cursor: pointer; margin-bottom: 10px;}
+/* Load Page CSS */
+section#loading {
+	width: 750px; height: 130px; background: #404040; margin:250px auto; border:2px solid #666666; 
+	border-radius: 2px; text-align: center;font-family: 'american', arial, tahoma; color: #fff; font-size: 65px;}
+	
+div#text{margin-top: 20px; z-index:999; position: relative:;}
+#gif{margin-top: -30px;}
+@font-face{ 
+	font-family: 'american';
+	src: url('../fonts/american_purpose-webfont.eot');
+	src: url('../fonts/american_purpose-webfont.eot#iefix') format('embedded-opentype'),
+	     url('../fonts/american_purpose-webfont.woff') format('woff'),
+	     url('../fonts/american_purpose-webfont.ttf') format('truetype'),
+	     url('../fonts/american_purpose-webfont.svg#webfont') format('svg');
+}
+.jconfirm
+{
+	width: 300px;
+	margin:0 auto;
+}
+@media(max-width: 768px)
+{
+	section#loading {
+	    width: 100%;	    
+	}
+	section#score {
+    width: 100%;   
+	}
+	section#game {
+    width: 100%;
+    height: 100%;
+    }
+    section#game #players #player1 {
+	    width: 100%;
+	    float: none;
+	    margin-left: 0px; 
+	    text-align: center;
+	    line-height: 2;
+	}
+	section#game #players #player2 {
+	    width: 100%;
+	    float: none;
+	    padding-left: 0;
+	    text-align: center;
+	}
+	section#game #players {
+	    height: auto;
+	    background: #999999;
+	    padding: 10px;
+	    font: 25px 'american', verdana, arial;
+	    color: #fff;
+	}
+	section#game #players #middle {
+	    width: 120px;
+	    height: 47px;
+	    margin: 17px auto;
+	    padding: 4px 20px 0px 20px;
+	}
+	section#game #box {
+	    width: 100%;
+	    height: 100%;
+	    margin: 0px auto;
+	}
+	section#game #box .boxs {
+	    width: 25%;
+	    height: 80px;
+	    background: #E8E8E8;
+	    border-radius: 5px;
+	    float: left;
+	    margin:4%;
+	    text-align: center;
+	    font-size: 58px;
+	    font-family: 'american', arial, verdana;
+	    padding-top: 0px;
+	    padding: 10px 0px 0px;
+	}
+	section#game #players #middle #line {
+	    width: 2px;
+	    height: 41px;
+	    margin: 2px auto;
+	    background: #5D5D5D;
+	}
+	div#game_status {
+	    background: #2A2A2A;
+	    width: 100%;
+	    height: 33px;
+	    text-align: center;
+	    padding: 10px 0px;
+	    font: 20px arial;
+	    color: #fff;
+	    margin-bottom: 30px;
+	}
+	.jconfirm.jconfirm-white .jconfirm-box .jconfirm-buttons button.btn-default, .jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons button.btn-default {
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	    color: #333;
+	    padding: 10px 20px;
+	}
+}

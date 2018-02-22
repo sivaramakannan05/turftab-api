@@ -1,0 +1,8 @@
+ERROR - 2017-11-15 13:21:24 --> Severity: Notice --> Undefined index: notification_event_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 308
+ERROR - 2017-11-15 13:38:44 --> Severity: Error --> Maximum execution time of 30 seconds exceeded D:\xampp\htdocs\turf_tab\turftab_service\controllers\Common.php 347
+ERROR - 2017-11-15 15:16:12 --> Query error: Unknown column 'notification_event_id' in 'field list' - Invalid query: INSERT INTO `ct_notifications` (`notifications_from_id`, `notifications_to_id`, `notification_event_id`, `notifications_msg`, `notifications_type`, `notifications_status`) VALUES ('1', '4', '44', 'is interested on your event', 'event_interested', 1)
+ERROR - 2017-11-15 15:17:09 --> Severity: Notice --> Undefined index: friend_id D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 345
+ERROR - 2017-11-15 16:32:06 --> Severity: Notice --> Undefined variable: gjasjfsdhfsdfh D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 430
+ERROR - 2017-11-15 16:39:38 --> Severity: Warning --> explode() expects parameter 2 to be string, array given D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 440
+ERROR - 2017-11-15 16:39:38 --> Severity: Warning --> Invalid argument supplied for foreach() D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 442
+ERROR - 2017-11-15 16:39:38 --> Severity: Notice --> Undefined variable: notification_data D:\xampp\htdocs\turf_tab\turftab_service\controllers\Event.php 448

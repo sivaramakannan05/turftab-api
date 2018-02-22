@@ -1,0 +1,5 @@
+ERROR - 2017-11-07 12:49:58 --> Severity: Parsing Error --> syntax error, unexpected ';', expecting ')' D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 323
+ERROR - 2017-11-07 13:08:28 --> Severity: Notice --> Undefined index: loggedin_user_name D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 381
+ERROR - 2017-11-07 13:28:32 --> Severity: Error --> Call to undefined method Profile_model::save_notifications() D:\xampp\htdocs\turf_tab\turftab_service\controllers\Profile.php 395
+ERROR - 2017-11-07 20:33:16 --> Severity: Parsing Error --> syntax error, unexpected '<', expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 472
+ERROR - 2017-11-07 20:33:48 --> Severity: Parsing Error --> syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$' D:\xampp\htdocs\turf_tab\turftab_service\models\Event_model.php 472

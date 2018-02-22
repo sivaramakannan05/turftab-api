@@ -1,0 +1,10 @@
+ERROR - 2017-12-15 11:19:11 --> Severity: Notice --> Undefined property: Chat_media::$ffmpegPath D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 144
+ERROR - 2017-12-15 11:20:43 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 148
+ERROR - 2017-12-15 11:20:43 --> Severity: Notice --> Undefined offset: 1 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 152
+ERROR - 2017-12-15 11:20:43 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 152
+ERROR - 2017-12-15 11:22:04 --> Severity: Notice --> Undefined variable: time_sec D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 153
+ERROR - 2017-12-15 11:22:04 --> Severity: Notice --> Undefined variable: time_sec D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 153
+ERROR - 2017-12-15 11:22:04 --> Severity: Notice --> Undefined variable: time_sec D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 153
+ERROR - 2017-12-15 11:22:28 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 152
+ERROR - 2017-12-15 11:22:56 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 153
+ERROR - 2017-12-15 11:23:24 --> Severity: Notice --> Undefined offset: 2 D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 154

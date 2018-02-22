@@ -1,0 +1,6 @@
+ERROR - 2017-12-13 13:05:46 --> Severity: Notice --> Undefined property: Chat_media::$event_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 29
+ERROR - 2017-12-13 13:05:46 --> Severity: Error --> Call to a member function unique_id_verification() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 29
+ERROR - 2017-12-13 13:06:23 --> Query error: Unknown column 'unique_id' in 'field list' - Invalid query: INSERT INTO `ct_chat_media` (`users_id`, `unique_id`, `chat_media_type`) VALUES ('4', 'MjcxNTExNDM0NTM5OTYw', 'image')
+ERROR - 2017-12-13 13:29:58 --> Severity: Notice --> Undefined variable: file_name_random D:\xampp\htdocs\turf_tab\turftab_service\controllers\Chat_media.php 102
+ERROR - 2017-12-13 17:59:52 --> Severity: Notice --> Undefined property: Expire::$event_model D:\xampp\htdocs\turf_tab\turftab_service\controllers\Expire.php 23
+ERROR - 2017-12-13 17:59:52 --> Severity: Error --> Call to a member function user_expire_events() on a non-object D:\xampp\htdocs\turf_tab\turftab_service\controllers\Expire.php 23
